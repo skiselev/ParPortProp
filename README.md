@@ -23,9 +23,11 @@ ParPortProp provides following capabilities:
 ## Hardware Documentation
 
 ### Schematic and PCB Layout
-* [Schematic - Version 1.0](KiCad/ParPortProp-Schematic-1.0.pdf) (current version)
+* [Schematic - Version 1.1](KiCad/ParPortProp-Schematic-1.1.pdf) (current version)
+* [Schematic - Version 1.0](KiCad/ParPortProp-Schematic-1.0.pdf)
 * [Schematic - Version 0.9](KiCad/ParPortProp-Schematic-0.9.pdf) (prototype)
-* [PCB Layout - Version 1.0](KiCad/ParPortProp-Board-1.0.pdf) (current version)
+* [PCB Layout - Version 1.1](KiCad/ParPortProp-Board-1.1.pdf) (current version)
+* [PCB Layout - Version 1.0](KiCad/ParPortProp-Board-1.0.pdf)
 * [PCB Layout - Version 0.9](KiCad/ParPortProp-Board-0.9.pdf) (prototype)
 
 ### Jumpers and Connectors
