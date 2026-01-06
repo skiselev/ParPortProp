@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 6/21/2012 8:15:10 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 12/18/2012 11:08:12 PM
 
 BeginCmp
 TimeStamp = /4E33223E;
@@ -78,16 +78,23 @@ IdModule  = C1V5;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F34BADE;
+TimeStamp = /4F34BAE4;
 Reference = C12;
 ValeurCmp = 10uF;
 IdModule  = C1V5;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F34BAE4;
+TimeStamp = /4F34BADE;
 Reference = C13;
-ValeurCmp = 10uF;
+ValeurCmp = 100uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D14415;
+Reference = C14;
+ValeurCmp = 100uF;
 IdModule  = C1V5;
 EndCmp
 
@@ -109,28 +116,28 @@ BeginCmp
 TimeStamp = /4E3342FD;
 Reference = HOLE1;
 ValeurCmp = CONN_1;
-IdModule  = HOLE_3MM;
+IdModule  = Hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E334305;
 Reference = HOLE2;
 ValeurCmp = CONN_1;
-IdModule  = HOLE_3MM;
+IdModule  = Hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E334308;
 Reference = HOLE3;
 ValeurCmp = CONN_1;
-IdModule  = HOLE_3MM;
+IdModule  = Hole_3mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E33430C;
 Reference = HOLE4;
 ValeurCmp = CONN_1;
-IdModule  = HOLE_3MM;
+IdModule  = Hole_3mm;
 EndCmp
 
 BeginCmp
@@ -164,449 +171,449 @@ EndCmp
 BeginCmp
 TimeStamp = /4F3B1FBB;
 Reference = P1;
-ValeurCmp = Power;
+ValeurCmp = 5V;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F3B21FA;
 Reference = P2;
-ValeurCmp = Interrupt;
+ValeurCmp = INT/~INT;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F3C8DA7;
 Reference = P3;
-ValeurCmp = PropPlug;
+ValeurCmp = PROP_PLUG;
 IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F3B2825;
 Reference = P4;
-ValeurCmp = Port_B;
+ValeurCmp = PORT_B;
 IdModule  = PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E2FC278;
 Reference = P5;
-ValeurCmp = Parallel;
+ValeurCmp = PARALLEL;
 IdModule  = PIN_ARRAY_13x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F34B94B;
 Reference = P6;
-ValeurCmp = Keyboard;
-IdModule  = MINI_DIN_6;
+ValeurCmp = KEYBOARD;
+IdModule  = Conn_Mini_DIN_6pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F3B142E;
 Reference = P7;
-ValeurCmp = Serial;
-IdModule  = DE9M;
+ValeurCmp = SERIAL;
+IdModule  = Conn_Dsub_DE9M;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F34A0A8;
 Reference = P8;
 ValeurCmp = VGA;
-IdModule  = DE15F;
+IdModule  = Conn_Dsub_DE15F;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F35F798;
 Reference = P9;
-ValeurCmp = SD_Card;
-IdModule  = SD_CARD_NORM2;
+ValeurCmp = SD_CARD;
+IdModule  = Conn_Memory_SD_Card_Norm;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19067;
+TimeStamp = /50D144D7;
 Reference = P10;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1906C;
+TimeStamp = /50D14171;
 Reference = P11;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1906F;
+TimeStamp = /50D14228;
 Reference = P12;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19082;
+TimeStamp = /50D14271;
 Reference = P13;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19087;
+TimeStamp = /50D14268;
 Reference = P14;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1908B;
+TimeStamp = /50D142E2;
 Reference = P15;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1908E;
+TimeStamp = /50D142EB;
 Reference = P16;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19094;
+TimeStamp = /50D145B9;
 Reference = P17;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19195;
+TimeStamp = /50D14368;
 Reference = P18;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD199B8;
+TimeStamp = /50D14697;
 Reference = P19;
-ValeurCmp = CONN_4X2;
-IdModule  = PROTO_8;
+ValeurCmp = PROTO_2X4;
+IdModule  = Proto_2x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190B1;
+TimeStamp = /50D144D6;
 Reference = P20;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190B0;
+TimeStamp = /50D1417B;
 Reference = P21;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190AF;
+TimeStamp = /50D14227;
 Reference = P22;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190AE;
+TimeStamp = /50D14270;
 Reference = P23;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190AD;
+TimeStamp = /50D14269;
 Reference = P24;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190AC;
+TimeStamp = /50D142E3;
 Reference = P25;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190AB;
+TimeStamp = /50D142EA;
 Reference = P26;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD190AA;
+TimeStamp = /50D145BA;
 Reference = P27;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19192;
+TimeStamp = /50D14367;
 Reference = P28;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD199C9;
+TimeStamp = /50D14693;
 Reference = P29;
-ValeurCmp = CONN_4X2;
-IdModule  = PROTO_8;
+ValeurCmp = PROTO_2X4;
+IdModule  = Proto_2x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C8;
+TimeStamp = /50D144D5;
 Reference = P30;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C7;
+TimeStamp = /50D1417E;
 Reference = P31;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C6;
+TimeStamp = /50D14226;
 Reference = P32;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C5;
+TimeStamp = /50D1426F;
 Reference = P33;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196BA;
+TimeStamp = /50D1426A;
 Reference = P34;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C4;
+TimeStamp = /50D142E4;
 Reference = P35;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C3;
+TimeStamp = /50D142E9;
 Reference = P36;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C2;
+TimeStamp = /50D14366;
 Reference = P37;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196B7;
+TimeStamp = /50D145BB;
 Reference = P38;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD199D4;
+TimeStamp = /50D1469B;
 Reference = P39;
-ValeurCmp = CONN_4X2;
-IdModule  = PROTO_8;
+ValeurCmp = PROTO_2X4;
+IdModule  = Proto_2x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196BB;
+TimeStamp = /50D144D4;
 Reference = P40;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196BC;
+TimeStamp = /50D14181;
 Reference = P41;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196BD;
+TimeStamp = /50D14225;
 Reference = P42;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196BE;
+TimeStamp = /50D1426E;
 Reference = P43;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196B9;
+TimeStamp = /50D1426B;
 Reference = P44;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196BF;
+TimeStamp = /50D142E5;
 Reference = P45;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C0;
+TimeStamp = /50D142E8;
 Reference = P46;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196C1;
+TimeStamp = /50D14365;
 Reference = P47;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD196B8;
+TimeStamp = /50D145BC;
 Reference = P48;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD199D3;
+TimeStamp = /50D14695;
 Reference = P49;
-ValeurCmp = CONN_4X2;
-IdModule  = PROTO_8;
+ValeurCmp = PROTO_2X4;
+IdModule  = Proto_2x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD199A3;
+TimeStamp = /50D1468E;
 Reference = P50;
-ValeurCmp = CONN_4X2;
-IdModule  = PROTO_8;
+ValeurCmp = PROTO_2X4;
+IdModule  = Proto_2x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1996F;
+TimeStamp = /50D14185;
 Reference = P51;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1996E;
+TimeStamp = /50D14224;
 Reference = P52;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1996D;
+TimeStamp = /50D144D3;
 Reference = P53;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19970;
+TimeStamp = /50D1426D;
 Reference = P54;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1996C;
+TimeStamp = /50D1426C;
 Reference = P55;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1996B;
+TimeStamp = /50D142E6;
 Reference = P56;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1996A;
+TimeStamp = /50D142E7;
 Reference = P57;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD19971;
+TimeStamp = /50D14364;
 Reference = P58;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1A02F;
+TimeStamp = /50D146A5;
 Reference = P59;
-ValeurCmp = CONN_2X2;
-IdModule  = PROTO_4;
+ValeurCmp = PROTO_2X2;
+IdModule  = Proto_2x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FD1A04D;
+TimeStamp = /50D146A8;
 Reference = P60;
-ValeurCmp = CONN_2X2;
-IdModule  = PROTO_4;
+ValeurCmp = PROTO_2X2;
+IdModule  = Proto_2x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE2D061;
+TimeStamp = /50D1435F;
 Reference = P61;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE2D066;
+TimeStamp = /50D14360;
 Reference = P62;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE2D069;
+TimeStamp = /50D14361;
 Reference = P63;
-ValeurCmp = CONN_8X2;
-IdModule  = PROTO_16;
+ValeurCmp = PROTO_4X4;
+IdModule  = Proto_4x4;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FE2D06F;
+TimeStamp = /50D146A0;
 Reference = P64;
-ValeurCmp = CONN_4X2;
-IdModule  = PROTO_8;
+ValeurCmp = PROTO_2X4;
+IdModule  = Proto_2x4;
 EndCmp
 
 BeginCmp
@@ -774,7 +781,7 @@ BeginCmp
 TimeStamp = /4F36FFC0;
 Reference = SP1;
 ValeurCmp = SPEAKER;
-IdModule  = SPEAKER;
+IdModule  = Speaker_12mm;
 EndCmp
 
 BeginCmp
@@ -816,7 +823,7 @@ BeginCmp
 TimeStamp = /4F34A444;
 Reference = X1;
 ValeurCmp = 5MHz;
-IdModule  = HC-18UH;
+IdModule  = Crystal_HC-49U_Horiz;
 EndCmp
 
 EndListe

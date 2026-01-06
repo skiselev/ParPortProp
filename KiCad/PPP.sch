@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/21/2012 9:48:09 PM
+EESchema Schematic File Version 2  date 12/19/2012 12:06:16 AM
 LIBS:74ls-sergey
 LIBS:controllers-sergey
 LIBS:dallas-rtc
@@ -35,6 +35,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:interconnects_sergey
 LIBS:PPP-cache
 EELAYER 25  0
 EELAYER END
@@ -42,7 +43,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "22 jun 2012"
+Date "19 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,880 +51,2033 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 11500 10000
-NoConn ~ 11500 9900
-NoConn ~ 11500 9800
-NoConn ~ 11500 9700
-NoConn ~ 10700 10000
-NoConn ~ 10700 9900
-NoConn ~ 10700 9800
-NoConn ~ 10700 9700
+NoConn ~ 15800 2500
+NoConn ~ 15800 2600
+NoConn ~ 15800 2700
+NoConn ~ 15800 2800
+NoConn ~ 15700 2800
+NoConn ~ 15700 2700
+NoConn ~ 15700 2600
+NoConn ~ 15700 2500
+NoConn ~ 15800 1700
+NoConn ~ 15800 1800
+NoConn ~ 15800 1900
+NoConn ~ 15800 2000
+NoConn ~ 15700 2000
+NoConn ~ 15700 1900
+NoConn ~ 15700 1800
+NoConn ~ 15700 1700
+NoConn ~ 15800 1200
+NoConn ~ 15700 1200
+NoConn ~ 15700 1100
+NoConn ~ 15800 1100
+NoConn ~ 15800 1000
+NoConn ~ 15700 1000
+NoConn ~ 14300 3100
+NoConn ~ 14400 3100
+NoConn ~ 14500 3100
+NoConn ~ 14600 3100
+NoConn ~ 14600 3200
+NoConn ~ 14500 3200
+NoConn ~ 14400 3200
+NoConn ~ 14300 3200
+NoConn ~ 13900 1600
+NoConn ~ 13800 1600
+NoConn ~ 13800 1500
+NoConn ~ 13700 1600
+NoConn ~ 13700 1500
+NoConn ~ 13600 1600
+NoConn ~ 13600 1500
+NoConn ~ 15300 7500
+NoConn ~ 15200 7500
+NoConn ~ 15100 7500
+NoConn ~ 15000 7500
+NoConn ~ 14600 7500
+NoConn ~ 14500 7500
+Connection ~ 14500 7600
+Connection ~ 13200 7600
+Wire Wire Line
+	15300 7600 12000 7600
+Connection ~ 15000 7600
+Connection ~ 15200 7600
+Wire Wire Line
+	12000 6800 10500 6800
+Wire Wire Line
+	12000 6800 12000 7600
+Connection ~ 15300 900 
+Connection ~ 14600 900 
+Connection ~ 13100 7600
+Connection ~ 12900 7600
+Connection ~ 12400 7600
+Connection ~ 12200 7600
+Connection ~ 11700 6800
+Connection ~ 11500 6800
+Connection ~ 11000 6800
+Connection ~ 10800 6800
+Connection ~ 15200 900 
+Connection ~ 15000 900 
+Connection ~ 13100 900 
+Connection ~ 12900 900 
+Connection ~ 12400 900 
+Connection ~ 12200 900 
+Connection ~ 11700 900 
+Connection ~ 11500 900 
+Connection ~ 11000 900 
+Connection ~ 10800 900 
+Wire Wire Line
+	10100 7800 5300 7800
+Connection ~ 9100 7200
+Wire Wire Line
+	9500 7200 9500 7300
+Wire Wire Line
+	7700 7200 9500 7200
+Wire Wire Line
+	9700 1400 9500 1400
+Connection ~ 8800 1800
+Wire Wire Line
+	8800 2000 8800 1800
+Wire Wire Line
+	8800 2000 8900 2000
+Wire Wire Line
+	1900 4900 5400 4900
+Connection ~ 8100 2600
+Wire Wire Line
+	8100 2200 8100 3300
+Wire Wire Line
+	8800 3100 8900 3100
+Wire Wire Line
+	8900 3100 8900 3000
+Wire Wire Line
+	8900 3000 9700 3000
+Wire Wire Line
+	6100 1100 6100 5600
+Wire Wire Line
+	6200 1100 6200 6000
 Wire Wire Line
-	8900 1400 8800 1400
+	6900 5300 6900 5400
 Wire Wire Line
-	8800 1400 8800 1600
+	6900 5400 7000 5400
 Wire Wire Line
-	8800 1600 9700 1600
+	7500 4900 7700 4900
 Wire Wire Line
-	9700 1300 9600 1300
+	7700 4900 7700 5100
 Wire Wire Line
-	9600 1300 9600 2000
+	7700 5100 10300 5100
+Connection ~ 8500 5000
 Wire Wire Line
-	9600 2000 9500 2000
-Connection ~ 6200 8700
+	8500 4900 8500 5000
 Wire Wire Line
-	6200 8700 6100 8700
-Connection ~ 6200 10200
-Wire Wire Line
-	6100 9700 6200 9700
-Wire Wire Line
-	6200 9700 6200 10500
-Wire Wire Line
-	6200 10300 6100 10300
-Connection ~ 5200 10200
-Wire Wire Line
-	5200 10200 5300 10200
-Connection ~ 4000 10300
-Wire Wire Line
-	3900 10300 4000 10300
-Connection ~ 3000 10300
-Wire Wire Line
-	3100 10300 3000 10300
-Connection ~ 7300 8600
-Wire Wire Line
-	7200 8600 7300 8600
-Wire Wire Line
-	6300 8400 6300 8700
-Connection ~ 6300 8600
-Wire Wire Line
-	6400 8600 6300 8600
-Wire Wire Line
-	2100 4200 2000 4200
-Wire Wire Line
-	2000 4200 2000 4300
-Wire Wire Line
-	5400 1100 5400 4900
-Connection ~ 2000 4900
-Connection ~ 8100 3100
-Wire Wire Line
-	8300 3100 8100 3100
-Wire Wire Line
-	7600 5300 10400 5300
-Wire Wire Line
-	7600 5300 7600 5100
-Wire Wire Line
-	7600 5100 7500 5100
-Connection ~ 8300 5000
-Wire Wire Line
-	8300 4900 8300 5000
-Wire Wire Line
-	9000 4200 9100 4200
-Connection ~ 8300 4100
-Wire Wire Line
-	8300 4100 8300 4400
-Wire Wire Line
-	9100 3800 9000 3800
-Wire Wire Line
-	7500 5400 9600 5400
-Wire Wire Line
-	4900 3500 7700 3500
-Wire Wire Line
-	7000 3300 6600 3300
-Connection ~ 5200 10500
-Connection ~ 5100 10500
-Wire Wire Line
-	5100 10500 5100 10200
-Wire Wire Line
-	5100 10200 5000 10200
-Connection ~ 4100 10500
-Wire Wire Line
-	4100 10500 4100 10200
-Wire Wire Line
-	4100 10200 4200 10200
-Connection ~ 2900 10500
-Wire Wire Line
-	2900 10500 2900 10200
-Wire Wire Line
-	2900 10200 2800 10200
-Connection ~ 1900 10500
-Wire Wire Line
-	1900 10500 1900 10200
-Wire Wire Line
-	1900 10200 2000 10200
-Connection ~ 1800 10500
-Wire Wire Line
-	1800 10500 1800 10200
-Wire Wire Line
-	1800 10200 1700 10200
-Wire Wire Line
-	900  10200 800  10200
-Connection ~ 5200 8400
-Wire Wire Line
-	5200 8400 5200 9200
-Wire Wire Line
-	5200 9200 5300 9200
-Connection ~ 5100 8400
-Wire Wire Line
-	5000 8600 5100 8600
-Connection ~ 4100 8600
-Connection ~ 4000 8600
-Wire Wire Line
-	3900 8600 4000 8600
-Connection ~ 3000 8600
-Wire Wire Line
-	3100 8600 3000 8600
-Connection ~ 2900 8600
-Wire Wire Line
-	2800 8600 2900 8600
-Connection ~ 1900 8600
-Wire Wire Line
-	2000 8600 1900 8600
-Connection ~ 1800 8600
-Wire Wire Line
-	1700 8600 1800 8600
-Connection ~ 800  8600
-Wire Wire Line
-	900  8600 800  8600
-Connection ~ 8800 5400
-Wire Wire Line
-	9600 5400 9600 5900
-Wire Wire Line
-	8800 3300 9000 3300
-Wire Wire Line
-	9000 3300 9000 3100
-Connection ~ 5900 2700
-Wire Wire Line
-	5900 1100 5900 3100
-Wire Wire Line
-	4300 6200 4400 6200
-Connection ~ 5300 2300
-Wire Wire Line
-	5300 2300 2900 2300
-Wire Wire Line
-	2900 2300 2900 1700
-Wire Wire Line
-	3200 1800 5000 1800
-Wire Wire Line
-	3200 1800 3200 1700
-Wire Wire Line
-	3400 1900 3400 1400
-Wire Wire Line
-	5000 1800 5000 1200
-Connection ~ 3400 1800
-Connection ~ 5000 1600
-Connection ~ 3400 1600
-Connection ~ 5600 1300
-Wire Wire Line
-	4900 1300 5600 1300
-Wire Wire Line
-	2700 2000 7000 2000
-Wire Wire Line
-	2700 2000 2700 4200
-Wire Wire Line
-	3500 3500 3100 3500
-Wire Wire Line
-	2100 4550 3100 4550
-Wire Wire Line
-	2700 4200 2500 4200
-Wire Wire Line
-	7000 1700 7100 1700
-Wire Wire Line
-	3400 7400 3000 7400
-Wire Wire Line
-	3400 7500 3000 7500
-Wire Wire Line
-	3400 7600 3000 7600
-Wire Wire Line
-	3400 7700 3000 7700
-Wire Wire Line
-	3400 7800 2800 7800
-Wire Wire Line
-	4300 7900 4300 7800
-Wire Wire Line
-	4300 7800 4200 7800
-Wire Wire Line
-	4200 7700 4600 7700
-Wire Wire Line
-	4200 7600 4600 7600
-Wire Wire Line
-	4200 7500 4600 7500
-Wire Wire Line
-	4200 7400 4600 7400
-Wire Wire Line
-	800  4900 1100 4900
-Connection ~ 1100 1500
-Wire Wire Line
-	1100 1500 1100 1800
-Wire Wire Line
-	1100 1800 2100 1800
-Wire Wire Line
-	2100 900  2100 800 
-Wire Wire Line
-	3800 6200 3700 6200
-Connection ~ 2200 6200
-Wire Wire Line
-	2200 6100 2200 6200
-Wire Wire Line
-	3100 6200 3300 6200
-Wire Wire Line
-	4900 4100 6600 4100
-Wire Wire Line
-	6600 4100 6600 4500
-Wire Wire Line
-	6600 4500 7000 4500
-Connection ~ 8300 7000
-Wire Wire Line
-	8700 7000 8700 6700
-Connection ~ 7500 6400
-Connection ~ 7100 6400
-Wire Wire Line
-	7100 6350 7100 6500
-Connection ~ 7500 7000
-Wire Wire Line
-	7500 7000 7500 6900
-Connection ~ 6500 7000
-Wire Wire Line
-	8300 7000 8300 6900
-Wire Wire Line
-	5100 6500 5100 6300
-Connection ~ 5900 6400
-Wire Wire Line
-	5900 6400 5900 6500
-Connection ~ 5500 7000
-Wire Wire Line
-	5500 7000 5500 6900
-Connection ~ 5100 6400
-Wire Wire Line
-	3200 5100 3200 4200
-Wire Wire Line
-	3200 5100 3300 5100
-Connection ~ 6100 4700
-Wire Wire Line
-	6100 4700 3300 4700
-Wire Wire Line
-	3300 4700 3300 4300
-Wire Wire Line
-	3400 4400 3400 4600
-Wire Wire Line
-	3300 4300 3500 4300
-Wire Wire Line
-	6400 1700 6400 1700
-Wire Wire Line
-	8700 1500 9700 1500
-Wire Wire Line
-	9700 1800 8700 1800
-Connection ~ 9500 1100
-Wire Wire Line
-	9500 1200 9500 1100
-Wire Wire Line
-	8700 800  8800 800 
-Wire Wire Line
-	7100 800  7000 800 
-Wire Wire Line
-	7000 800  7000 700 
-Wire Wire Line
-	7000 700  6900 700 
-Wire Wire Line
-	6500 1100 6400 1100
-Wire Wire Line
-	6400 1100 6400 1300
-Wire Wire Line
-	6400 1300 7000 1300
-Wire Wire Line
-	7000 1300 7000 1200
-Wire Wire Line
-	7000 1200 7100 1200
-Wire Wire Line
-	7900 6500 7900 6400
-Connection ~ 3900 5700
-Wire Wire Line
-	4500 5700 4500 5500
-Wire Wire Line
-	4500 5700 3900 5700
-Wire Wire Line
-	4000 5100 3800 5100
-Wire Wire Line
-	4500 5500 4600 5500
-Wire Wire Line
-	3400 1100 3400 1200
-Wire Wire Line
-	3400 1200 3500 1200
-Wire Wire Line
-	5000 1200 4900 1200
-Wire Wire Line
-	1300 6200 800  6200
-Wire Wire Line
-	9000 3100 9700 3100
-Connection ~ 5700 2300
-Wire Wire Line
-	9700 2300 5700 2300
-Wire Wire Line
-	9700 2700 5900 2700
-Wire Wire Line
-	8100 2600 9700 2600
-Wire Wire Line
-	9700 2800 9600 2800
-Wire Wire Line
-	9700 2500 9600 2500
-Wire Wire Line
-	6400 3200 6400 3300
-Wire Wire Line
-	6400 3300 4900 3300
-Wire Wire Line
-	5900 3100 4900 3100
-Wire Wire Line
-	5700 1100 5700 2900
-Wire Wire Line
-	9600 5900 9700 5900
-Wire Wire Line
-	9400 5600 9700 5600
-Wire Wire Line
-	4900 2600 5300 2600
-Wire Wire Line
-	5300 1100 5300 1200
-Wire Wire Line
-	5300 1200 5200 1200
-Wire Wire Line
-	5200 1200 5200 1150
-Wire Wire Line
-	5500 1100 5500 2700
-Wire Wire Line
-	5500 2700 4900 2700
-Wire Wire Line
-	3400 1600 3500 1600
-Wire Wire Line
-	6900 3800 6900 3900
-Wire Wire Line
-	6900 3800 4900 3800
-Connection ~ 9000 4600
-Wire Wire Line
-	9000 4600 9100 4600
-Connection ~ 9000 4200
-Wire Wire Line
-	9000 3800 9000 4750
-Wire Wire Line
-	10100 4300 10300 4300
-Wire Wire Line
-	10300 4300 10300 5100
-Wire Wire Line
-	9100 4300 7700 4300
-Wire Wire Line
-	7700 4300 7700 4700
-Wire Wire Line
-	7700 4700 7500 4700
-Wire Wire Line
-	7500 4100 9100 4100
-Wire Wire Line
-	7600 3900 7600 3700
-Wire Wire Line
-	7600 3700 7500 3700
-Wire Wire Line
-	4900 4300 6400 4300
-Wire Wire Line
-	6400 4300 6400 4900
-Wire Wire Line
-	6400 4900 7000 4900
-Wire Wire Line
-	4900 3900 6800 3900
-Wire Wire Line
-	7000 3700 4900 3700
-Connection ~ 3000 3400
-Wire Wire Line
-	3000 3450 3000 3300
-Wire Wire Line
-	3500 3400 3000 3400
-Wire Wire Line
-	800  4100 2100 4100
-Wire Wire Line
-	2500 3600 2800 3600
-Wire Wire Line
-	2500 4100 3500 4100
-Wire Wire Line
-	2500 3900 3500 3900
-Wire Wire Line
-	2500 3700 3500 3700
-Wire Wire Line
-	2500 3100 3500 3100
-Wire Wire Line
-	2500 2900 3500 2900
-Wire Wire Line
-	2500 2700 3500 2700
-Wire Wire Line
-	2500 2500 3500 2500
-Connection ~ 8700 6900
-Wire Wire Line
-	8800 6900 8700 6900
-Wire Wire Line
-	8700 6700 8800 6700
-Wire Wire Line
-	4800 7100 4800 6800
-Wire Wire Line
-	2800 7100 2800 7000
-Connection ~ 4800 7000
-Wire Wire Line
-	1200 7800 800  7800
-Wire Wire Line
-	1200 7700 800  7700
-Wire Wire Line
-	1200 7600 800  7600
-Wire Wire Line
-	1200 7500 800  7500
-Wire Wire Line
-	1200 7400 800  7400
-Wire Wire Line
-	1200 7300 800  7300
-Wire Wire Line
-	1200 7200 800  7200
-Wire Wire Line
-	1200 7100 800  7100
-Wire Wire Line
-	1200 7000 800  7000
-Wire Wire Line
-	1200 6900 800  6900
-Wire Wire Line
-	1200 6800 800  6800
-Wire Wire Line
-	1200 6700 800  6700
-Wire Wire Line
-	1200 6600 800  6600
-Wire Wire Line
-	2000 6600 2400 6600
-Wire Wire Line
-	2000 6700 2400 6700
-Wire Wire Line
-	2000 6800 2400 6800
-Wire Wire Line
-	2000 6900 2400 6900
-Wire Wire Line
-	2000 7000 2400 7000
-Wire Wire Line
-	2000 7100 2400 7100
-Wire Wire Line
-	2000 7200 2400 7200
-Wire Wire Line
-	2000 7300 2400 7300
-Wire Wire Line
-	2000 7400 2400 7400
-Wire Wire Line
-	2000 7500 2400 7500
-Wire Wire Line
-	2000 7600 2400 7600
-Wire Wire Line
-	2000 7700 2400 7700
-Wire Wire Line
-	2000 7800 2100 7800
-Wire Wire Line
-	2100 7800 2100 7900
-Wire Wire Line
-	8700 6800 8800 6800
-Connection ~ 8700 6800
-Wire Wire Line
-	8800 7000 4500 7000
-Connection ~ 8700 7000
-Wire Wire Line
-	3500 2600 2500 2600
-Wire Wire Line
-	3500 2800 2500 2800
-Wire Wire Line
-	3500 3000 2500 3000
-Wire Wire Line
-	2800 3600 2800 3200
-Wire Wire Line
-	2800 3200 3500 3200
-Wire Wire Line
-	3500 3800 2500 3800
-Wire Wire Line
-	3500 4000 2500 4000
-Wire Wire Line
-	2100 2500 800  2500
-Wire Wire Line
-	2100 2600 800  2600
-Wire Wire Line
-	2100 2700 800  2700
-Wire Wire Line
-	2100 2800 800  2800
-Wire Wire Line
-	2100 2900 800  2900
-Wire Wire Line
-	2100 3000 800  3000
-Wire Wire Line
-	2100 3100 800  3100
-Wire Wire Line
-	2100 3700 800  3700
-Wire Wire Line
-	2100 3800 800  3800
-Wire Wire Line
-	2100 3900 800  3900
-Wire Wire Line
-	2100 4000 800  4000
-Wire Wire Line
-	2100 3600 800  3600
-Wire Wire Line
-	3500 3600 2900 3600
-Wire Wire Line
-	2900 3600 2900 3350
-Wire Wire Line
-	3000 3300 3500 3300
-Wire Wire Line
-	3200 4200 3500 4200
-Wire Wire Line
-	6900 3900 7000 3900
-Wire Wire Line
-	4900 4200 6500 4200
-Wire Wire Line
-	6500 4200 6500 4700
-Wire Wire Line
-	6500 4700 7000 4700
-Wire Wire Line
-	4900 4400 6300 4400
-Wire Wire Line
-	6300 4400 6300 5100
-Wire Wire Line
-	6300 5100 7000 5100
-Wire Wire Line
-	9100 3900 7500 3900
-Connection ~ 7600 3900
-Wire Wire Line
-	7500 4300 7600 4300
-Wire Wire Line
-	7600 4300 7600 4100
-Connection ~ 7600 4100
-Wire Wire Line
-	7500 4500 7700 4500
-Connection ~ 7700 4500
-Wire Wire Line
-	10400 5300 10400 4500
-Wire Wire Line
-	10400 4500 10100 4500
-Connection ~ 9000 4000
-Connection ~ 9000 4700
-Wire Wire Line
-	6600 3300 6600 3400
-Wire Wire Line
-	6600 3400 4900 3400
-Wire Wire Line
-	4900 3600 5000 3600
-Wire Wire Line
-	5000 3600 5000 4500
-Wire Wire Line
-	3500 1500 3400 1500
-Connection ~ 3400 1500
-Wire Wire Line
-	4900 2800 5600 2800
-Wire Wire Line
-	5600 2800 5600 1100
-Wire Wire Line
-	5200 2500 5200 1700
-Wire Wire Line
-	5200 2500 4900 2500
-Wire Wire Line
-	9700 6000 9400 6000
-Wire Wire Line
-	9700 5800 9500 5800
-Wire Wire Line
-	9500 5800 9500 6200
-Wire Wire Line
-	4900 3000 5800 3000
-Wire Wire Line
-	5800 3000 5800 1100
-Wire Wire Line
-	4900 3200 6000 3200
-Wire Wire Line
-	6000 3200 6000 1100
-Wire Wire Line
-	6500 7000 6500 6700
-Wire Wire Line
-	9600 2500 9600 3250
-Connection ~ 9600 2800
-Wire Wire Line
-	9700 2900 6000 2900
-Connection ~ 6000 2900
-Wire Wire Line
-	9700 2400 5800 2400
-Connection ~ 5800 2400
-Wire Wire Line
-	4400 6200 4400 6100
-Wire Wire Line
-	4900 1600 5000 1600
-Wire Wire Line
-	3900 5200 3900 5100
-Connection ~ 3900 5100
-Wire Wire Line
-	3900 5800 3900 5600
-Wire Wire Line
-	8300 6500 8300 6400
-Wire Wire Line
-	6900 1100 7100 1100
-Wire Wire Line
-	7100 900  6400 900 
-Wire Wire Line
-	6400 900  6400 700 
-Wire Wire Line
-	6400 700  6500 700 
-Wire Wire Line
-	8700 1100 8800 1100
-Wire Wire Line
-	9700 1100 9200 1100
-Wire Wire Line
-	9200 800  9500 800 
-Wire Wire Line
-	9500 800  9500 700 
-Wire Wire Line
-	9700 1700 8700 1700
-Wire Wire Line
-	7000 2000 7000 1800
-Wire Wire Line
-	7000 1800 7100 1800
-Wire Wire Line
-	3400 4400 3500 4400
-Wire Wire Line
-	3400 4600 6200 4600
-Connection ~ 6200 4600
-Wire Wire Line
-	8900 6000 6200 6000
-Wire Wire Line
-	8900 5600 6100 5600
-Wire Wire Line
-	4500 6800 4600 6800
-Wire Wire Line
-	4600 6800 4600 6400
-Wire Wire Line
-	4600 6400 6100 6400
-Wire Wire Line
-	5100 7000 5100 6900
-Connection ~ 5100 7000
-Connection ~ 5500 6400
-Wire Wire Line
-	5900 7000 5900 6900
-Connection ~ 5900 7000
-Wire Wire Line
-	5500 6300 5500 6500
-Wire Wire Line
-	7900 7000 7900 6900
-Connection ~ 7900 7000
-Wire Wire Line
-	7100 7000 7100 6900
-Connection ~ 7100 7000
-Wire Wire Line
-	7500 6400 7500 6500
-Wire Wire Line
-	8300 6400 6900 6400
-Connection ~ 7900 6400
-Wire Wire Line
-	7000 4100 6800 4100
-Wire Wire Line
-	6800 4100 6800 3900
-Wire Wire Line
-	4900 4000 6700 4000
-Wire Wire Line
-	6700 4000 6700 4300
-Wire Wire Line
-	6700 4300 7000 4300
-Wire Wire Line
-	2300 6200 2100 6200
-Wire Wire Line
-	2200 5500 2200 5600
-Wire Wire Line
-	2000 1500 2100 1500
-Wire Wire Line
-	1200 1500 800  1500
-Wire Wire Line
-	2100 1600 2100 1400
-Connection ~ 2100 1500
-Wire Wire Line
-	2800 7800 2800 7700
-Wire Wire Line
-	5200 1700 6500 1700
-Wire Wire Line
-	4400 5100 4500 5100
-Wire Wire Line
-	4500 5100 4500 5300
-Wire Wire Line
-	4500 5300 4600 5300
-Wire Wire Line
-	2000 4800 2000 4900
-Wire Wire Line
-	4900 1400 5500 1400
-Connection ~ 5500 1400
-Wire Wire Line
-	5300 2600 5300 1500
-Wire Wire Line
-	5300 1500 7100 1500
-Wire Wire Line
-	3400 1400 3500 1400
-Wire Wire Line
-	5700 2900 4900 2900
-Wire Wire Line
-	3100 4550 3100 1700
-Connection ~ 3100 3500
-Wire Wire Line
-	5200 2200 3000 2200
-Wire Wire Line
-	3000 2200 3000 1700
-Connection ~ 5200 2200
-Wire Wire Line
-	9100 4400 8800 4400
-Wire Wire Line
-	8300 3300 8100 3300
-Wire Wire Line
-	8800 4400 8800 5400
-Wire Wire Line
-	6100 9200 6200 9200
-Wire Wire Line
-	6200 9200 6200 8400
-Wire Wire Line
-	900  8700 800  8700
-Wire Wire Line
-	1700 8700 1800 8700
-Wire Wire Line
-	1800 8700 1800 8400
-Connection ~ 1800 8400
-Wire Wire Line
-	2000 8700 1900 8700
-Wire Wire Line
-	1900 8700 1900 8400
-Connection ~ 1900 8400
-Wire Wire Line
-	2800 8700 2900 8700
-Wire Wire Line
-	2900 8700 2900 8400
-Connection ~ 2900 8400
-Wire Wire Line
-	3000 8400 3000 8700
-Wire Wire Line
-	3000 8700 3100 8700
-Connection ~ 3000 8400
-Wire Wire Line
-	3900 8700 4000 8700
-Wire Wire Line
-	4000 8700 4000 8400
-Connection ~ 4000 8400
-Wire Wire Line
-	4200 8700 4100 8700
-Wire Wire Line
-	4100 8700 4100 8400
-Connection ~ 4100 8400
-Wire Wire Line
-	4200 8600 4100 8600
-Wire Wire Line
-	5000 8700 5100 8700
-Wire Wire Line
-	5100 8700 5100 8400
-Connection ~ 5100 8600
-Wire Wire Line
-	800  8700 800  8300
-Connection ~ 800  8400
-Wire Wire Line
-	900  10300 800  10300
-Connection ~ 800  10300
-Wire Wire Line
-	1700 10300 1800 10300
-Connection ~ 1800 10300
-Wire Wire Line
-	2000 10300 1900 10300
-Connection ~ 1900 10300
-Wire Wire Line
-	2800 10300 2900 10300
-Connection ~ 2900 10300
-Wire Wire Line
-	4200 10300 4100 10300
-Connection ~ 4100 10300
-Wire Wire Line
-	5000 10300 5100 10300
-Connection ~ 5100 10300
-Wire Wire Line
-	800  10200 800  10600
-Connection ~ 800  10500
-Wire Wire Line
-	7700 3500 7700 3300
-Wire Wire Line
-	7700 3300 7600 3300
-Wire Wire Line
-	8100 3900 8100 4400
-Connection ~ 8100 3900
-Wire Wire Line
-	9100 4000 9000 4000
-Wire Wire Line
-	8500 4400 8500 4300
-Connection ~ 8500 4300
-Wire Wire Line
-	8100 4900 8100 5000
-Wire Wire Line
-	8100 5000 8700 5000
+	9100 4700 8700 4700
 Wire Wire Line
 	8700 5000 8700 4700
 Wire Wire Line
-	8700 4700 9100 4700
+	8700 5000 8100 5000
 Wire Wire Line
-	8500 4900 8500 5000
-Connection ~ 8500 5000
+	8100 5000 8100 4900
+Connection ~ 8500 4300
 Wire Wire Line
-	10300 5100 7700 5100
+	8500 4400 8500 4300
 Wire Wire Line
-	7700 5100 7700 4900
+	9000 4000 9100 4000
+Connection ~ 8100 3900
 Wire Wire Line
-	7700 4900 7500 4900
+	8100 4400 8100 3900
 Wire Wire Line
-	7000 5400 6900 5400
+	7600 3300 7700 3300
 Wire Wire Line
-	6900 5400 6900 5300
+	7700 3300 7700 3500
 Wire Wire Line
-	6200 6000 6200 1100
+	8800 4400 8800 5400
 Wire Wire Line
-	6100 5600 6100 1100
+	8100 3300 8300 3300
 Wire Wire Line
-	9700 3000 8900 3000
+	8800 4400 9100 4400
+Connection ~ 5200 2200
 Wire Wire Line
-	8900 3000 8900 3100
+	3000 1700 3000 2200
 Wire Wire Line
-	8900 3100 8800 3100
+	3000 2200 5200 2200
+Connection ~ 3100 3500
 Wire Wire Line
-	8100 3300 8100 2200
-Connection ~ 8100 2600
+	3100 1700 3100 4550
 Wire Wire Line
-	5400 4900 1900 4900
-Connection ~ 6200 8400
+	5700 2900 4900 2900
 Wire Wire Line
-	6300 8700 6400 8700
+	3400 1400 3500 1400
 Wire Wire Line
-	7300 8700 7300 8400
+	5300 1500 7100 1500
 Wire Wire Line
-	7300 8700 7200 8700
-Connection ~ 6300 8400
+	5300 1500 5300 2600
+Connection ~ 5500 1400
 Wire Wire Line
-	7300 8400 800  8400
+	4900 1400 5500 1400
 Wire Wire Line
-	3000 10500 3000 10200
+	2000 4800 2000 4900
 Wire Wire Line
-	3000 10200 3100 10200
-Connection ~ 3000 10500
+	4600 5300 4500 5300
 Wire Wire Line
-	3900 10200 4000 10200
+	4500 5300 4500 5100
 Wire Wire Line
-	4000 10200 4000 10500
-Connection ~ 4000 10500
+	4500 5100 4400 5100
 Wire Wire Line
-	6200 10500 800  10500
+	5200 1700 6500 1700
 Wire Wire Line
-	5200 10500 5200 9700
+	2800 7700 2800 7800
+Connection ~ 2100 1500
 Wire Wire Line
-	5200 9700 5300 9700
+	2100 1600 2100 1400
 Wire Wire Line
-	5200 10300 5300 10300
-Connection ~ 5200 10300
+	1200 1500 800  1500
 Wire Wire Line
-	6100 10200 6200 10200
-Connection ~ 6200 10300
+	2000 1500 2100 1500
 Wire Wire Line
-	6100 8900 6200 8900
-Connection ~ 6200 8900
+	2200 5500 2200 5600
 Wire Wire Line
-	8900 2000 8800 2000
+	2300 6200 2100 6200
 Wire Wire Line
-	8800 2000 8800 1800
-Connection ~ 8800 1800
+	7000 4300 6700 4300
 Wire Wire Line
-	9700 1400 9500 1400
+	6700 4300 6700 4000
+Wire Wire Line
+	6700 4000 4900 4000
+Wire Wire Line
+	6800 4100 6800 3900
+Wire Wire Line
+	6800 4100 7000 4100
+Connection ~ 8700 7200
+Wire Wire Line
+	8300 7200 8300 7300
+Connection ~ 7900 7800
+Wire Wire Line
+	7900 7800 7900 7700
+Connection ~ 8700 7800
+Wire Wire Line
+	8700 7800 8700 7700
+Wire Wire Line
+	6300 7100 6300 7300
+Connection ~ 6700 7800
+Wire Wire Line
+	6700 7800 6700 7700
+Connection ~ 6300 7200
+Connection ~ 5900 7800
+Wire Wire Line
+	5900 7800 5900 7700
+Wire Wire Line
+	6900 7200 5400 7200
+Wire Wire Line
+	5400 7200 5400 7600
+Wire Wire Line
+	5400 7600 5300 7600
+Wire Wire Line
+	6100 5600 8900 5600
+Wire Wire Line
+	6200 6000 8900 6000
+Connection ~ 6200 4600
+Wire Wire Line
+	6200 4600 3400 4600
+Wire Wire Line
+	3500 4400 3400 4400
+Wire Wire Line
+	7100 1800 7000 1800
+Wire Wire Line
+	7000 1800 7000 2000
+Wire Wire Line
+	9700 1700 8700 1700
+Wire Wire Line
+	9500 700  9500 800 
+Wire Wire Line
+	9500 800  9200 800 
+Wire Wire Line
+	9700 1100 9200 1100
+Wire Wire Line
+	8700 1100 8800 1100
+Wire Wire Line
+	6500 700  6400 700 
+Wire Wire Line
+	6400 700  6400 900 
+Wire Wire Line
+	6400 900  7100 900 
+Wire Wire Line
+	6900 1100 7100 1100
+Wire Wire Line
+	9100 7200 9100 7300
+Wire Wire Line
+	3900 5800 3900 5600
+Connection ~ 3900 5100
+Wire Wire Line
+	3900 5200 3900 5100
+Wire Wire Line
+	4900 1600 5000 1600
+Wire Wire Line
+	4400 6100 4400 6200
+Connection ~ 5800 2400
+Wire Wire Line
+	9700 2400 5800 2400
+Connection ~ 6000 2900
+Wire Wire Line
+	9700 2900 6000 2900
+Connection ~ 9600 2800
+Wire Wire Line
+	9600 3250 9600 2500
+Wire Wire Line
+	7300 7800 7300 7500
+Wire Wire Line
+	6000 1100 6000 3200
+Wire Wire Line
+	6000 3200 4900 3200
+Wire Wire Line
+	5800 1100 5800 3000
+Wire Wire Line
+	5800 3000 4900 3000
+Wire Wire Line
+	9500 6200 9500 5800
+Wire Wire Line
+	9500 5800 9700 5800
+Wire Wire Line
+	9700 6000 9400 6000
+Wire Wire Line
+	5200 2500 4900 2500
+Wire Wire Line
+	5200 1700 5200 2500
+Wire Wire Line
+	5600 1100 5600 2800
+Wire Wire Line
+	5600 2800 4900 2800
+Connection ~ 3400 1500
+Wire Wire Line
+	3500 1500 3400 1500
+Wire Wire Line
+	5000 4500 5000 3600
+Wire Wire Line
+	5000 3600 4900 3600
+Wire Wire Line
+	4900 3400 6600 3400
+Wire Wire Line
+	6600 3400 6600 3300
+Connection ~ 9000 4700
+Connection ~ 9000 4000
+Wire Wire Line
+	10100 4500 10400 4500
+Wire Wire Line
+	10400 4500 10400 5300
+Connection ~ 7700 4500
+Wire Wire Line
+	7500 4500 7700 4500
+Connection ~ 7600 4100
+Wire Wire Line
+	7600 4300 7600 4100
+Wire Wire Line
+	7600 4300 7500 4300
+Connection ~ 7600 3900
+Wire Wire Line
+	9100 3900 7500 3900
+Wire Wire Line
+	7000 5100 6300 5100
+Wire Wire Line
+	6300 5100 6300 4400
+Wire Wire Line
+	6300 4400 4900 4400
+Wire Wire Line
+	7000 4700 6500 4700
+Wire Wire Line
+	6500 4700 6500 4200
+Wire Wire Line
+	6500 4200 4900 4200
+Wire Wire Line
+	7000 3900 6900 3900
+Wire Wire Line
+	3500 4200 3200 4200
+Wire Wire Line
+	3000 3300 3500 3300
+Wire Wire Line
+	2900 3350 2900 3600
+Wire Wire Line
+	2900 3600 3500 3600
+Wire Wire Line
+	2100 3600 800  3600
+Wire Wire Line
+	2100 4000 800  4000
+Wire Wire Line
+	2100 3900 800  3900
+Wire Wire Line
+	2100 3800 800  3800
+Wire Wire Line
+	2100 3700 800  3700
+Wire Wire Line
+	2100 3100 800  3100
+Wire Wire Line
+	2100 3000 800  3000
+Wire Wire Line
+	2100 2900 800  2900
+Wire Wire Line
+	2100 2800 800  2800
+Wire Wire Line
+	2100 2700 800  2700
+Wire Wire Line
+	2100 2600 800  2600
+Wire Wire Line
+	2100 2500 800  2500
+Wire Wire Line
+	3500 4000 2500 4000
+Wire Wire Line
+	3500 3800 2500 3800
+Wire Wire Line
+	3500 3200 2800 3200
+Wire Wire Line
+	2800 3200 2800 3600
+Wire Wire Line
+	3500 3000 2500 3000
+Wire Wire Line
+	3500 2800 2500 2800
+Wire Wire Line
+	3500 2600 2500 2600
+Connection ~ 10000 7800
+Connection ~ 10000 7600
+Wire Wire Line
+	10100 7600 10000 7600
+Wire Wire Line
+	2100 7900 2100 7800
+Wire Wire Line
+	2100 7800 2000 7800
+Wire Wire Line
+	2000 7700 2400 7700
+Wire Wire Line
+	2000 7600 2400 7600
+Wire Wire Line
+	2000 7500 2400 7500
+Wire Wire Line
+	2000 7400 2400 7400
+Wire Wire Line
+	2000 7300 2400 7300
+Wire Wire Line
+	2000 7200 2400 7200
+Wire Wire Line
+	2000 7100 2400 7100
+Wire Wire Line
+	2000 7000 2400 7000
+Wire Wire Line
+	2000 6900 2400 6900
+Wire Wire Line
+	2000 6800 2400 6800
+Wire Wire Line
+	2000 6700 2400 6700
+Wire Wire Line
+	2000 6600 2400 6600
+Wire Wire Line
+	1200 6600 800  6600
+Wire Wire Line
+	1200 6700 800  6700
+Wire Wire Line
+	1200 6800 800  6800
+Wire Wire Line
+	1200 6900 800  6900
+Wire Wire Line
+	1200 7000 800  7000
+Wire Wire Line
+	1200 7100 800  7100
+Wire Wire Line
+	1200 7200 800  7200
+Wire Wire Line
+	1200 7300 800  7300
+Wire Wire Line
+	1200 7400 800  7400
+Wire Wire Line
+	1200 7500 800  7500
+Wire Wire Line
+	1200 7600 800  7600
+Wire Wire Line
+	1200 7700 800  7700
+Wire Wire Line
+	1200 7800 800  7800
+Connection ~ 5600 7800
+Wire Wire Line
+	2800 7100 2800 7000
+Wire Wire Line
+	5600 7900 5600 7600
+Wire Wire Line
+	10000 7500 10100 7500
+Wire Wire Line
+	10000 7700 10100 7700
+Connection ~ 10000 7700
+Wire Wire Line
+	2500 2500 3500 2500
+Wire Wire Line
+	2500 2700 3500 2700
+Wire Wire Line
+	2500 2900 3500 2900
+Wire Wire Line
+	2500 3100 3500 3100
+Wire Wire Line
+	2500 3700 3500 3700
+Wire Wire Line
+	2500 3900 3500 3900
+Wire Wire Line
+	2500 4100 3500 4100
+Wire Wire Line
+	2800 3600 2500 3600
+Wire Wire Line
+	800  4100 2100 4100
+Wire Wire Line
+	3500 3400 3000 3400
+Wire Wire Line
+	3000 3450 3000 3300
+Connection ~ 3000 3400
+Wire Wire Line
+	7000 3700 4900 3700
+Wire Wire Line
+	6800 3900 4900 3900
+Wire Wire Line
+	7000 4900 6400 4900
+Wire Wire Line
+	6400 4900 6400 4300
+Wire Wire Line
+	6400 4300 4900 4300
+Wire Wire Line
+	7500 3700 7600 3700
+Wire Wire Line
+	7600 3700 7600 3900
+Wire Wire Line
+	7500 4100 9100 4100
+Wire Wire Line
+	7700 4700 7500 4700
+Wire Wire Line
+	7700 4300 7700 4700
+Wire Wire Line
+	9100 4300 7700 4300
+Wire Wire Line
+	10300 5100 10300 4300
+Wire Wire Line
+	10300 4300 10100 4300
+Wire Wire Line
+	9000 4750 9000 3800
+Connection ~ 9000 4200
+Wire Wire Line
+	9000 4600 9100 4600
+Connection ~ 9000 4600
+Wire Wire Line
+	4900 3800 6900 3800
+Wire Wire Line
+	6900 3800 6900 3900
+Wire Wire Line
+	3400 1600 3500 1600
+Wire Wire Line
+	5500 2700 4900 2700
+Wire Wire Line
+	5500 1100 5500 2700
+Wire Wire Line
+	5200 1150 5200 1200
+Wire Wire Line
+	5200 1200 5300 1200
+Wire Wire Line
+	5300 1200 5300 1100
+Wire Wire Line
+	5300 2600 4900 2600
+Wire Wire Line
+	9400 5600 9700 5600
+Wire Wire Line
+	9700 5900 9600 5900
+Wire Wire Line
+	5700 1100 5700 2900
+Wire Wire Line
+	5900 3100 4900 3100
+Wire Wire Line
+	4900 3300 6400 3300
+Wire Wire Line
+	6400 3300 6400 3200
+Wire Wire Line
+	9600 2500 9700 2500
+Wire Wire Line
+	9700 2800 9600 2800
+Wire Wire Line
+	8100 2600 9700 2600
+Wire Wire Line
+	9700 2700 5900 2700
+Wire Wire Line
+	9700 2300 5700 2300
+Connection ~ 5700 2300
+Wire Wire Line
+	9700 3100 9000 3100
+Wire Wire Line
+	1300 6200 800  6200
+Wire Wire Line
+	5000 1200 4900 1200
+Wire Wire Line
+	3500 1200 3400 1200
+Wire Wire Line
+	3400 1200 3400 1100
+Wire Wire Line
+	4600 5500 4500 5500
+Wire Wire Line
+	4000 5100 3800 5100
+Wire Wire Line
+	3900 5700 4500 5700
+Wire Wire Line
+	4500 5700 4500 5500
+Connection ~ 3900 5700
+Wire Wire Line
+	8700 7200 8700 7300
+Wire Wire Line
+	7100 1200 7000 1200
+Wire Wire Line
+	7000 1200 7000 1300
+Wire Wire Line
+	7000 1300 6400 1300
+Wire Wire Line
+	6400 1300 6400 1100
+Wire Wire Line
+	6400 1100 6500 1100
+Wire Wire Line
+	6900 700  7000 700 
+Wire Wire Line
+	7000 700  7000 800 
+Wire Wire Line
+	7000 800  7100 800 
+Wire Wire Line
+	8700 800  8800 800 
+Wire Wire Line
+	9500 1200 9500 1100
+Connection ~ 9500 1100
+Wire Wire Line
+	9700 1800 8700 1800
+Wire Wire Line
+	8700 1500 9700 1500
+Wire Wire Line
+	6400 1700 6400 1700
+Wire Wire Line
+	3500 4300 3300 4300
+Wire Wire Line
+	3400 4400 3400 4600
+Wire Wire Line
+	3300 4300 3300 4700
+Wire Wire Line
+	3300 4700 6100 4700
+Connection ~ 6100 4700
+Wire Wire Line
+	3300 5100 3200 5100
+Wire Wire Line
+	3200 5100 3200 4200
+Connection ~ 5900 7200
+Wire Wire Line
+	6300 7800 6300 7700
+Connection ~ 6300 7800
+Wire Wire Line
+	6700 7200 6700 7300
+Connection ~ 6700 7200
+Wire Wire Line
+	5900 7300 5900 7100
+Wire Wire Line
+	9100 7800 9100 7700
+Connection ~ 7300 7800
+Wire Wire Line
+	8300 7800 8300 7700
+Connection ~ 8300 7800
+Wire Wire Line
+	7900 7150 7900 7300
+Connection ~ 7900 7200
+Connection ~ 8300 7200
+Wire Wire Line
+	10000 7800 10000 7500
+Connection ~ 9100 7800
+Wire Wire Line
+	7000 4500 6600 4500
+Wire Wire Line
+	6600 4500 6600 4100
+Wire Wire Line
+	6600 4100 4900 4100
+Wire Wire Line
+	3100 6200 3300 6200
+Wire Wire Line
+	2200 6100 2200 6200
+Connection ~ 2200 6200
+Wire Wire Line
+	3800 6200 3700 6200
+Wire Wire Line
+	2100 900  2100 800 
+Wire Wire Line
+	2100 1800 1100 1800
+Wire Wire Line
+	1100 1800 1100 1500
+Connection ~ 1100 1500
+Wire Wire Line
+	800  4900 1100 4900
+Wire Wire Line
+	4200 7400 4600 7400
+Wire Wire Line
+	4200 7500 4600 7500
+Wire Wire Line
+	4200 7600 4600 7600
+Wire Wire Line
+	4200 7700 4600 7700
+Wire Wire Line
+	4200 7800 4300 7800
+Wire Wire Line
+	4300 7800 4300 7900
+Wire Wire Line
+	2800 7800 3400 7800
+Wire Wire Line
+	3400 7700 3000 7700
+Wire Wire Line
+	3400 7600 3000 7600
+Wire Wire Line
+	3400 7500 3000 7500
+Wire Wire Line
+	3400 7400 3000 7400
+Wire Wire Line
+	7000 1700 7100 1700
+Wire Wire Line
+	2500 4200 2700 4200
+Wire Wire Line
+	3100 4550 2100 4550
+Wire Wire Line
+	3500 3500 3100 3500
+Wire Wire Line
+	2700 4200 2700 2000
+Wire Wire Line
+	2700 2000 7000 2000
+Wire Wire Line
+	4900 1300 5600 1300
+Connection ~ 5600 1300
+Connection ~ 3400 1600
+Connection ~ 5000 1600
+Connection ~ 3400 1800
+Wire Wire Line
+	5000 1800 5000 1200
+Wire Wire Line
+	3400 1900 3400 1400
+Wire Wire Line
+	3200 1800 3200 1700
+Wire Wire Line
+	5000 1800 3200 1800
+Wire Wire Line
+	2900 1700 2900 2300
+Wire Wire Line
+	2900 2300 5300 2300
+Connection ~ 5300 2300
+Wire Wire Line
+	4400 6200 4300 6200
+Wire Wire Line
+	5900 1100 5900 3100
+Connection ~ 5900 2700
+Wire Wire Line
+	9000 3100 9000 3300
+Wire Wire Line
+	9000 3300 8800 3300
+Wire Wire Line
+	9600 5400 9600 5900
+Connection ~ 8800 5400
+Wire Wire Line
+	6600 3300 7000 3300
+Wire Wire Line
+	7700 3500 4900 3500
+Wire Wire Line
+	7500 5400 9600 5400
+Wire Wire Line
+	9000 3800 9100 3800
+Wire Wire Line
+	8300 4100 8300 4400
+Connection ~ 8300 4100
+Wire Wire Line
+	9000 4200 9100 4200
+Wire Wire Line
+	8300 4900 8300 5000
+Connection ~ 8300 5000
+Wire Wire Line
+	7500 5100 7600 5100
+Wire Wire Line
+	7600 5100 7600 5300
+Wire Wire Line
+	7600 5300 10400 5300
+Wire Wire Line
+	8300 3100 8100 3100
+Connection ~ 8100 3100
+Connection ~ 2000 4900
+Wire Wire Line
+	5400 4900 5400 1100
+Wire Wire Line
+	2000 4300 2000 4200
+Wire Wire Line
+	2000 4200 2100 4200
+Wire Wire Line
+	9500 2000 9600 2000
+Wire Wire Line
+	9600 2000 9600 1300
+Wire Wire Line
+	9600 1300 9700 1300
+Wire Wire Line
+	9700 1600 8800 1600
+Wire Wire Line
+	8800 1600 8800 1400
+Wire Wire Line
+	8800 1400 8900 1400
+Wire Wire Line
+	9500 7800 9500 7700
+Connection ~ 9500 7800
+Wire Wire Line
+	10500 900  10500 800 
+Connection ~ 10900 900 
+Connection ~ 11100 900 
+Connection ~ 11600 900 
+Connection ~ 11800 900 
+Connection ~ 12300 900 
+Connection ~ 12500 900 
+Connection ~ 13000 900 
+Connection ~ 13200 900 
+Connection ~ 15100 900 
+Wire Wire Line
+	10500 6800 10500 6900
+Connection ~ 10900 6800
+Connection ~ 11100 6800
+Connection ~ 11600 6800
+Connection ~ 11800 6800
+Connection ~ 12300 7600
+Connection ~ 12500 7600
+Connection ~ 13000 7600
+Connection ~ 14500 900 
+Wire Wire Line
+	15800 900  10500 900 
+Connection ~ 15700 900 
+Connection ~ 15100 7600
+Connection ~ 14600 7600
+NoConn ~ 14600 1000
+NoConn ~ 14500 1000
+$Comp
+L PROTO_2X2 P60
+U 1 1 50D146A8
+P 14550 950
+F 0 "P60" H 14550 750 60  0000 C CNN
+F 1 "PROTO_2X2" H 14550 1150 60  0000 C CNN
+	1    14550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_2X2 P59
+U 1 1 50D146A5
+P 14550 7550
+F 0 "P59" H 14550 7350 60  0000 C CNN
+F 1 "PROTO_2X2" H 14550 7750 60  0000 C CNN
+	1    14550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_2X4 P64
+U 1 1 50D146A0
+P 15150 7550
+F 0 "P64" H 15150 7350 60  0000 C CNN
+F 1 "PROTO_2X4" H 15150 7750 60  0000 C CNN
+	1    15150 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_2X4 P39
+U 1 1 50D1469B
+P 15750 1050
+F 0 "P39" H 15750 850 60  0000 C CNN
+F 1 "PROTO_2X4" H 15750 1250 60  0000 C CNN
+	1    15750 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PROTO_2X4 P19
+U 1 1 50D14697
+P 14450 3150
+F 0 "P19" H 14450 2950 60  0000 C CNN
+F 1 "PROTO_2X4" H 14450 3350 60  0000 C CNN
+	1    14450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_2X4 P49
+U 1 1 50D14695
+P 15750 2650
+F 0 "P49" H 15750 2450 60  0000 C CNN
+F 1 "PROTO_2X4" H 15750 2850 60  0000 C CNN
+	1    15750 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PROTO_2X4 P29
+U 1 1 50D14693
+P 15750 1850
+F 0 "P29" H 15750 1650 60  0000 C CNN
+F 1 "PROTO_2X4" H 15750 2050 60  0000 C CNN
+	1    15750 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PROTO_2X4 P50
+U 1 1 50D1468E
+P 13750 1550
+F 0 "P50" H 13750 1350 60  0000 C CNN
+F 1 "PROTO_2X4" H 13750 1750 60  0000 C CNN
+	1    13750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 50D145F1
+P 10500 6900
+F 0 "#PWR01" H 10500 6900 30  0001 C CNN
+F 1 "GND" H 10500 6830 30  0001 C CNN
+	1    10500 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13200 7500
+NoConn ~ 13200 7400
+NoConn ~ 13200 7300
+NoConn ~ 13100 7300
+NoConn ~ 13100 7400
+NoConn ~ 13100 7500
+NoConn ~ 13000 7500
+NoConn ~ 13000 7400
+NoConn ~ 13000 7300
+NoConn ~ 12900 7300
+NoConn ~ 12900 7400
+NoConn ~ 12900 7500
+NoConn ~ 12500 7500
+NoConn ~ 12500 7400
+NoConn ~ 12500 7300
+NoConn ~ 12400 7300
+NoConn ~ 12400 7400
+NoConn ~ 12400 7500
+NoConn ~ 12300 7500
+NoConn ~ 12300 7400
+NoConn ~ 12300 7300
+NoConn ~ 12200 7300
+NoConn ~ 12200 7400
+NoConn ~ 12200 7500
+NoConn ~ 11800 6500
+NoConn ~ 11800 6600
+NoConn ~ 11800 6700
+NoConn ~ 11700 6700
+NoConn ~ 11700 6600
+NoConn ~ 11700 6500
+NoConn ~ 11600 6500
+NoConn ~ 11600 6600
+NoConn ~ 11600 6700
+NoConn ~ 11500 6700
+NoConn ~ 11500 6600
+NoConn ~ 11500 6500
+NoConn ~ 11100 6500
+NoConn ~ 11100 6600
+NoConn ~ 11100 6700
+NoConn ~ 11000 6700
+NoConn ~ 11000 6600
+NoConn ~ 11000 6500
+NoConn ~ 10900 6500
+NoConn ~ 10900 6600
+NoConn ~ 10900 6700
+NoConn ~ 10800 6700
+NoConn ~ 10800 6600
+NoConn ~ 10800 6500
+$Comp
+L PROTO_4X4 P48
+U 1 1 50D145BC
+P 13050 7450
+F 0 "P48" H 13050 7150 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 7750 60  0000 C CNN
+	1    13050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P38
+U 1 1 50D145BB
+P 12350 7450
+F 0 "P38" H 12350 7150 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 7750 60  0000 C CNN
+	1    12350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P27
+U 1 1 50D145BA
+P 11650 6650
+F 0 "P27" H 11650 6350 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 6950 60  0000 C CNN
+	1    11650 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P17
+U 1 1 50D145B9
+P 10950 6650
+F 0 "P17" H 10950 6350 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 6950 60  0000 C CNN
+	1    10950 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 50D14545
+P 10500 800
+F 0 "#PWR02" H 10500 900 30  0001 C CNN
+F 1 "VCC" H 10500 900 30  0000 C CNN
+	1    10500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P10
+U 1 1 50D144D7
+P 10950 1050
+F 0 "P10" H 10950 750 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 1350 60  0000 C CNN
+	1    10950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P20
+U 1 1 50D144D6
+P 11650 1050
+F 0 "P20" H 11650 750 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 1350 60  0000 C CNN
+	1    11650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P30
+U 1 1 50D144D5
+P 12350 1050
+F 0 "P30" H 12350 750 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 1350 60  0000 C CNN
+	1    12350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P40
+U 1 1 50D144D4
+P 13050 1050
+F 0 "P40" H 13050 750 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 1350 60  0000 C CNN
+	1    13050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P53
+U 1 1 50D144D3
+P 15150 1050
+F 0 "P53" H 15150 750 60  0000 C CNN
+F 1 "PROTO_4X4" H 15150 1350 60  0000 C CNN
+	1    15150 1050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 1000
+NoConn ~ 10800 1100
+NoConn ~ 10800 1200
+NoConn ~ 10900 1200
+NoConn ~ 10900 1100
+NoConn ~ 10900 1000
+NoConn ~ 11000 1000
+NoConn ~ 11000 1100
+NoConn ~ 11000 1200
+NoConn ~ 11100 1200
+NoConn ~ 11100 1100
+NoConn ~ 11100 1000
+NoConn ~ 11500 1000
+NoConn ~ 11500 1100
+NoConn ~ 11500 1200
+NoConn ~ 11600 1200
+NoConn ~ 11600 1100
+NoConn ~ 11600 1000
+NoConn ~ 11700 1000
+NoConn ~ 11700 1100
+NoConn ~ 11700 1200
+NoConn ~ 11800 1200
+NoConn ~ 11800 1100
+NoConn ~ 11800 1000
+NoConn ~ 12200 1200
+NoConn ~ 12200 1100
+NoConn ~ 12200 1000
+NoConn ~ 12300 1000
+NoConn ~ 12300 1100
+NoConn ~ 12300 1200
+NoConn ~ 12400 1200
+NoConn ~ 12400 1100
+NoConn ~ 12400 1000
+NoConn ~ 12500 1000
+NoConn ~ 12500 1100
+NoConn ~ 12500 1200
+NoConn ~ 12900 1200
+NoConn ~ 12900 1100
+NoConn ~ 12900 1000
+NoConn ~ 13000 1000
+NoConn ~ 13000 1100
+NoConn ~ 13000 1200
+NoConn ~ 13100 1200
+NoConn ~ 13100 1100
+NoConn ~ 13100 1000
+NoConn ~ 13200 1000
+NoConn ~ 13200 1100
+NoConn ~ 13200 1200
+NoConn ~ 15000 1000
+NoConn ~ 15000 1100
+NoConn ~ 15000 1200
+NoConn ~ 15100 1200
+NoConn ~ 15100 1100
+NoConn ~ 15100 1000
+NoConn ~ 15200 1000
+NoConn ~ 15200 1100
+NoConn ~ 15200 1200
+NoConn ~ 15300 1200
+NoConn ~ 15300 1100
+NoConn ~ 15300 1000
+$Comp
+L CP1 C14
+U 1 1 50D14415
+P 9500 7500
+F 0 "C14" H 9550 7600 50  0000 L CNN
+F 1 "100uF" H 9550 7400 50  0000 L CNN
+	1    9500 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P18
+U 1 1 50D14368
+P 14450 1650
+F 0 "P18" H 14450 1350 60  0000 C CNN
+F 1 "PROTO_4X4" H 14450 1950 60  0000 C CNN
+	1    14450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P28
+U 1 1 50D14367
+P 14450 2450
+F 0 "P28" H 14450 2150 60  0000 C CNN
+F 1 "PROTO_4X4" H 14450 2750 60  0000 C CNN
+	1    14450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P37
+U 1 1 50D14366
+P 12350 6650
+F 0 "P37" H 12350 6350 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 6950 60  0000 C CNN
+	1    12350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P47
+U 1 1 50D14365
+P 13050 6650
+F 0 "P47" H 13050 6350 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 6950 60  0000 C CNN
+	1    13050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P58
+U 1 1 50D14364
+P 14450 6050
+F 0 "P58" H 14450 5750 60  0000 C CNN
+F 1 "PROTO_4X4" H 14450 6350 60  0000 C CNN
+	1    14450 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14300 1500
+NoConn ~ 14300 1600
+NoConn ~ 14300 1700
+NoConn ~ 14300 1800
+NoConn ~ 14400 1800
+NoConn ~ 14400 1700
+NoConn ~ 14400 1600
+NoConn ~ 14400 1500
+NoConn ~ 14500 1500
+NoConn ~ 14500 1600
+NoConn ~ 14500 1700
+NoConn ~ 14500 1800
+NoConn ~ 14600 1800
+NoConn ~ 14600 1700
+NoConn ~ 14600 1600
+NoConn ~ 14600 1500
+NoConn ~ 14300 2300
+NoConn ~ 14300 2400
+NoConn ~ 14300 2500
+NoConn ~ 14300 2600
+NoConn ~ 14400 2600
+NoConn ~ 14400 2500
+NoConn ~ 14400 2400
+NoConn ~ 14400 2300
+NoConn ~ 14500 2300
+NoConn ~ 14500 2400
+NoConn ~ 14500 2500
+NoConn ~ 14500 2600
+NoConn ~ 14600 2600
+NoConn ~ 14600 2500
+NoConn ~ 14600 2400
+NoConn ~ 14600 2300
+NoConn ~ 12200 6800
+NoConn ~ 12200 6700
+NoConn ~ 12200 6600
+NoConn ~ 12200 6500
+NoConn ~ 12300 6500
+NoConn ~ 12300 6600
+NoConn ~ 12300 6700
+NoConn ~ 12300 6800
+NoConn ~ 12400 6800
+NoConn ~ 12400 6700
+NoConn ~ 12400 6600
+NoConn ~ 12400 6500
+NoConn ~ 12500 6500
+NoConn ~ 12500 6600
+NoConn ~ 12500 6700
+NoConn ~ 12500 6800
+NoConn ~ 12900 6800
+NoConn ~ 12900 6700
+NoConn ~ 12900 6600
+NoConn ~ 12900 6500
+NoConn ~ 13000 6500
+NoConn ~ 13000 6600
+NoConn ~ 13000 6700
+NoConn ~ 13000 6800
+NoConn ~ 13100 6800
+NoConn ~ 13100 6700
+NoConn ~ 13100 6600
+NoConn ~ 13100 6500
+NoConn ~ 13200 6500
+NoConn ~ 13200 6600
+NoConn ~ 13200 6700
+NoConn ~ 13200 6800
+NoConn ~ 14300 5900
+NoConn ~ 14300 6000
+NoConn ~ 14300 6100
+NoConn ~ 14300 6200
+NoConn ~ 14400 6200
+NoConn ~ 14400 6100
+NoConn ~ 14400 6000
+NoConn ~ 14400 5900
+NoConn ~ 14500 5900
+NoConn ~ 14500 6000
+NoConn ~ 14500 6100
+NoConn ~ 14500 6200
+NoConn ~ 14600 6200
+NoConn ~ 14600 6100
+NoConn ~ 14600 6000
+NoConn ~ 14600 5900
+NoConn ~ 15300 7000
+NoConn ~ 15300 6900
+NoConn ~ 15300 6800
+NoConn ~ 15300 6700
+NoConn ~ 15200 6700
+NoConn ~ 15200 6800
+NoConn ~ 15200 6900
+NoConn ~ 15200 7000
+NoConn ~ 15100 7000
+NoConn ~ 15100 6900
+NoConn ~ 15100 6800
+NoConn ~ 15100 6700
+NoConn ~ 15000 6700
+NoConn ~ 15000 6800
+NoConn ~ 15000 6900
+NoConn ~ 15000 7000
+NoConn ~ 15300 5900
+NoConn ~ 15300 6000
+NoConn ~ 15300 6100
+NoConn ~ 15300 6200
+NoConn ~ 15200 6200
+NoConn ~ 15200 6100
+NoConn ~ 15200 6000
+NoConn ~ 15200 5900
+NoConn ~ 15100 5900
+NoConn ~ 15100 6000
+NoConn ~ 15100 6100
+NoConn ~ 15100 6200
+NoConn ~ 15000 6200
+NoConn ~ 15000 6100
+NoConn ~ 15000 6000
+NoConn ~ 15000 5900
+NoConn ~ 14600 6700
+NoConn ~ 14600 6800
+NoConn ~ 14600 6900
+NoConn ~ 14600 7000
+NoConn ~ 14500 7000
+NoConn ~ 14500 6900
+NoConn ~ 14500 6800
+NoConn ~ 14500 6700
+NoConn ~ 14400 6700
+NoConn ~ 14400 6800
+NoConn ~ 14400 6900
+NoConn ~ 14400 7000
+NoConn ~ 14300 7000
+NoConn ~ 14300 6900
+NoConn ~ 14300 6800
+NoConn ~ 14300 6700
+$Comp
+L PROTO_4X4 P63
+U 1 1 50D14361
+P 15150 6850
+F 0 "P63" H 15150 6550 60  0000 C CNN
+F 1 "PROTO_4X4" H 15150 7150 60  0000 C CNN
+	1    15150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P62
+U 1 1 50D14360
+P 15150 6050
+F 0 "P62" H 15150 5750 60  0000 C CNN
+F 1 "PROTO_4X4" H 15150 6350 60  0000 C CNN
+	1    15150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P61
+U 1 1 50D1435F
+P 14450 6850
+F 0 "P61" H 14450 6550 60  0000 C CNN
+F 1 "PROTO_4X4" H 14450 7150 60  0000 C CNN
+	1    14450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P16
+U 1 1 50D142EB
+P 10950 5850
+F 0 "P16" H 10950 5550 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 6150 60  0000 C CNN
+	1    10950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P26
+U 1 1 50D142EA
+P 11650 5850
+F 0 "P26" H 11650 5550 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 6150 60  0000 C CNN
+	1    11650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P36
+U 1 1 50D142E9
+P 12350 5850
+F 0 "P36" H 12350 5550 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 6150 60  0000 C CNN
+	1    12350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P46
+U 1 1 50D142E8
+P 13050 5850
+F 0 "P46" H 13050 5550 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 6150 60  0000 C CNN
+	1    13050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P57
+U 1 1 50D142E7
+P 13750 6850
+F 0 "P57" H 13750 6550 60  0000 C CNN
+F 1 "PROTO_4X4" H 13750 7150 60  0000 C CNN
+	1    13750 6850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 5700
+NoConn ~ 10800 5800
+NoConn ~ 10800 5900
+NoConn ~ 10800 6000
+NoConn ~ 10900 6000
+NoConn ~ 10900 5900
+NoConn ~ 10900 5800
+NoConn ~ 10900 5700
+NoConn ~ 11000 5700
+NoConn ~ 11000 5800
+NoConn ~ 11000 5900
+NoConn ~ 11000 6000
+NoConn ~ 11100 6000
+NoConn ~ 11100 5900
+NoConn ~ 11100 5800
+NoConn ~ 11100 5700
+NoConn ~ 11500 5700
+NoConn ~ 11500 5800
+NoConn ~ 11500 5900
+NoConn ~ 11500 6000
+NoConn ~ 11600 6000
+NoConn ~ 11600 5900
+NoConn ~ 11600 5800
+NoConn ~ 11600 5700
+NoConn ~ 11700 5700
+NoConn ~ 11700 5800
+NoConn ~ 11700 5900
+NoConn ~ 11700 6000
+NoConn ~ 11800 6000
+NoConn ~ 11800 5900
+NoConn ~ 11800 5800
+NoConn ~ 11800 5700
+NoConn ~ 12200 6000
+NoConn ~ 12200 5900
+NoConn ~ 12200 5800
+NoConn ~ 12200 5700
+NoConn ~ 12300 5700
+NoConn ~ 12300 5800
+NoConn ~ 12300 5900
+NoConn ~ 12300 6000
+NoConn ~ 12400 6000
+NoConn ~ 12400 5900
+NoConn ~ 12400 5800
+NoConn ~ 12400 5700
+NoConn ~ 12500 5700
+NoConn ~ 12500 5800
+NoConn ~ 12500 5900
+NoConn ~ 12500 6000
+NoConn ~ 12900 6000
+NoConn ~ 12900 5900
+NoConn ~ 12900 5800
+NoConn ~ 12900 5700
+NoConn ~ 13000 5700
+NoConn ~ 13000 5800
+NoConn ~ 13000 5900
+NoConn ~ 13000 6000
+NoConn ~ 13100 6000
+NoConn ~ 13100 5900
+NoConn ~ 13100 5800
+NoConn ~ 13100 5700
+NoConn ~ 13200 5700
+NoConn ~ 13200 5800
+NoConn ~ 13200 5900
+NoConn ~ 13200 6000
+NoConn ~ 13600 6700
+NoConn ~ 13600 6800
+NoConn ~ 13600 6900
+NoConn ~ 13600 7000
+NoConn ~ 13700 7000
+NoConn ~ 13700 6900
+NoConn ~ 13700 6800
+NoConn ~ 13700 6700
+NoConn ~ 13800 6700
+NoConn ~ 13800 6800
+NoConn ~ 13800 6900
+NoConn ~ 13800 7000
+NoConn ~ 13900 7000
+NoConn ~ 13900 6900
+NoConn ~ 13900 6800
+NoConn ~ 13900 6700
+NoConn ~ 13900 5900
+NoConn ~ 13900 6000
+NoConn ~ 13900 6100
+NoConn ~ 13900 6200
+NoConn ~ 13800 6200
+NoConn ~ 13800 6100
+NoConn ~ 13800 6000
+NoConn ~ 13800 5900
+NoConn ~ 13700 5900
+NoConn ~ 13700 6000
+NoConn ~ 13700 6100
+NoConn ~ 13700 6200
+NoConn ~ 13600 6200
+NoConn ~ 13600 6100
+NoConn ~ 13600 6000
+NoConn ~ 13600 5900
+NoConn ~ 13200 5200
+NoConn ~ 13200 5100
+NoConn ~ 13200 5000
+NoConn ~ 13200 4900
+NoConn ~ 13100 4900
+NoConn ~ 13100 5000
+NoConn ~ 13100 5100
+NoConn ~ 13100 5200
+NoConn ~ 13000 5200
+NoConn ~ 13000 5100
+NoConn ~ 13000 5000
+NoConn ~ 13000 4900
+NoConn ~ 12900 4900
+NoConn ~ 12900 5000
+NoConn ~ 12900 5100
+NoConn ~ 12900 5200
+NoConn ~ 12500 5200
+NoConn ~ 12500 5100
+NoConn ~ 12500 5000
+NoConn ~ 12500 4900
+NoConn ~ 12400 4900
+NoConn ~ 12400 5000
+NoConn ~ 12400 5100
+NoConn ~ 12400 5200
+NoConn ~ 12300 5200
+NoConn ~ 12300 5100
+NoConn ~ 12300 5000
+NoConn ~ 12300 4900
+NoConn ~ 12200 4900
+NoConn ~ 12200 5000
+NoConn ~ 12200 5100
+NoConn ~ 12200 5200
+NoConn ~ 11800 4900
+NoConn ~ 11800 5000
+NoConn ~ 11800 5100
+NoConn ~ 11800 5200
+NoConn ~ 11700 5200
+NoConn ~ 11700 5100
+NoConn ~ 11700 5000
+NoConn ~ 11700 4900
+NoConn ~ 11600 4900
+NoConn ~ 11600 5000
+NoConn ~ 11600 5100
+NoConn ~ 11600 5200
+NoConn ~ 11500 5200
+NoConn ~ 11500 5100
+NoConn ~ 11500 5000
+NoConn ~ 11500 4900
+NoConn ~ 11100 4900
+NoConn ~ 11100 5000
+NoConn ~ 11100 5100
+NoConn ~ 11100 5200
+NoConn ~ 11000 5200
+NoConn ~ 11000 5100
+NoConn ~ 11000 5000
+NoConn ~ 11000 4900
+NoConn ~ 10900 4900
+NoConn ~ 10900 5000
+NoConn ~ 10900 5100
+NoConn ~ 10900 5200
+NoConn ~ 10800 5200
+NoConn ~ 10800 5100
+NoConn ~ 10800 5000
+NoConn ~ 10800 4900
+$Comp
+L PROTO_4X4 P56
+U 1 1 50D142E6
+P 13750 6050
+F 0 "P56" H 13750 5750 60  0000 C CNN
+F 1 "PROTO_4X4" H 13750 6350 60  0000 C CNN
+	1    13750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P45
+U 1 1 50D142E5
+P 13050 5050
+F 0 "P45" H 13050 4750 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 5350 60  0000 C CNN
+	1    13050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P35
+U 1 1 50D142E4
+P 12350 5050
+F 0 "P35" H 12350 4750 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 5350 60  0000 C CNN
+	1    12350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P25
+U 1 1 50D142E3
+P 11650 5050
+F 0 "P25" H 11650 4750 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 5350 60  0000 C CNN
+	1    11650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P15
+U 1 1 50D142E2
+P 10950 5050
+F 0 "P15" H 10950 4750 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 5350 60  0000 C CNN
+	1    10950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P13
+U 1 1 50D14271
+P 10950 3450
+F 0 "P13" H 10950 3150 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 3750 60  0000 C CNN
+	1    10950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P23
+U 1 1 50D14270
+P 11650 3450
+F 0 "P23" H 11650 3150 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 3750 60  0000 C CNN
+	1    11650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P33
+U 1 1 50D1426F
+P 12350 3450
+F 0 "P33" H 12350 3150 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 3750 60  0000 C CNN
+	1    12350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P43
+U 1 1 50D1426E
+P 13050 3450
+F 0 "P43" H 13050 3150 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 3750 60  0000 C CNN
+	1    13050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P54
+U 1 1 50D1426D
+P 15150 1850
+F 0 "P54" H 15150 1550 60  0000 C CNN
+F 1 "PROTO_4X4" H 15150 2150 60  0000 C CNN
+	1    15150 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 3300
+NoConn ~ 10800 3400
+NoConn ~ 10800 3500
+NoConn ~ 10800 3600
+NoConn ~ 10900 3600
+NoConn ~ 10900 3500
+NoConn ~ 10900 3400
+NoConn ~ 10900 3300
+NoConn ~ 11000 3300
+NoConn ~ 11000 3400
+NoConn ~ 11000 3500
+NoConn ~ 11000 3600
+NoConn ~ 11100 3600
+NoConn ~ 11100 3500
+NoConn ~ 11100 3400
+NoConn ~ 11100 3300
+NoConn ~ 11500 3300
+NoConn ~ 11500 3400
+NoConn ~ 11500 3500
+NoConn ~ 11500 3600
+NoConn ~ 11600 3600
+NoConn ~ 11600 3500
+NoConn ~ 11600 3400
+NoConn ~ 11600 3300
+NoConn ~ 11700 3300
+NoConn ~ 11700 3400
+NoConn ~ 11700 3500
+NoConn ~ 11700 3600
+NoConn ~ 11800 3600
+NoConn ~ 11800 3500
+NoConn ~ 11800 3400
+NoConn ~ 11800 3300
+NoConn ~ 12200 3600
+NoConn ~ 12200 3500
+NoConn ~ 12200 3400
+NoConn ~ 12200 3300
+NoConn ~ 12300 3300
+NoConn ~ 12300 3400
+NoConn ~ 12300 3500
+NoConn ~ 12300 3600
+NoConn ~ 12400 3600
+NoConn ~ 12400 3500
+NoConn ~ 12400 3400
+NoConn ~ 12400 3300
+NoConn ~ 12500 3300
+NoConn ~ 12500 3400
+NoConn ~ 12500 3500
+NoConn ~ 12500 3600
+NoConn ~ 12900 3600
+NoConn ~ 12900 3500
+NoConn ~ 12900 3400
+NoConn ~ 12900 3300
+NoConn ~ 13000 3300
+NoConn ~ 13000 3400
+NoConn ~ 13000 3500
+NoConn ~ 13000 3600
+NoConn ~ 13100 3600
+NoConn ~ 13100 3500
+NoConn ~ 13100 3400
+NoConn ~ 13100 3300
+NoConn ~ 13200 3300
+NoConn ~ 13200 3400
+NoConn ~ 13200 3500
+NoConn ~ 13200 3600
+NoConn ~ 15000 1700
+NoConn ~ 15000 1800
+NoConn ~ 15000 1900
+NoConn ~ 15000 2000
+NoConn ~ 15100 2000
+NoConn ~ 15100 1900
+NoConn ~ 15100 1800
+NoConn ~ 15100 1700
+NoConn ~ 15200 1700
+NoConn ~ 15200 1800
+NoConn ~ 15200 1900
+NoConn ~ 15200 2000
+NoConn ~ 15300 2000
+NoConn ~ 15300 1900
+NoConn ~ 15300 1800
+NoConn ~ 15300 1700
+NoConn ~ 15300 2500
+NoConn ~ 15300 2600
+NoConn ~ 15300 2700
+NoConn ~ 15300 2800
+NoConn ~ 15200 2800
+NoConn ~ 15200 2700
+NoConn ~ 15200 2600
+NoConn ~ 15200 2500
+NoConn ~ 15100 2500
+NoConn ~ 15100 2600
+NoConn ~ 15100 2700
+NoConn ~ 15100 2800
+NoConn ~ 15000 2800
+NoConn ~ 15000 2700
+NoConn ~ 15000 2600
+NoConn ~ 15000 2500
+NoConn ~ 13200 4400
+NoConn ~ 13200 4300
+NoConn ~ 13200 4200
+NoConn ~ 13200 4100
+NoConn ~ 13100 4100
+NoConn ~ 13100 4200
+NoConn ~ 13100 4300
+NoConn ~ 13100 4400
+NoConn ~ 13000 4400
+NoConn ~ 13000 4300
+NoConn ~ 13000 4200
+NoConn ~ 13000 4100
+NoConn ~ 12900 4100
+NoConn ~ 12900 4200
+NoConn ~ 12900 4300
+NoConn ~ 12900 4400
+NoConn ~ 12500 4400
+NoConn ~ 12500 4300
+NoConn ~ 12500 4200
+NoConn ~ 12500 4100
+NoConn ~ 12400 4100
+NoConn ~ 12400 4200
+NoConn ~ 12400 4300
+NoConn ~ 12400 4400
+NoConn ~ 12300 4400
+NoConn ~ 12300 4300
+NoConn ~ 12300 4200
+NoConn ~ 12300 4100
+NoConn ~ 12200 4100
+NoConn ~ 12200 4200
+NoConn ~ 12200 4300
+NoConn ~ 12200 4400
+NoConn ~ 11800 4100
+NoConn ~ 11800 4200
+NoConn ~ 11800 4300
+NoConn ~ 11800 4400
+NoConn ~ 11700 4400
+NoConn ~ 11700 4300
+NoConn ~ 11700 4200
+NoConn ~ 11700 4100
+NoConn ~ 11600 4100
+NoConn ~ 11600 4200
+NoConn ~ 11600 4300
+NoConn ~ 11600 4400
+NoConn ~ 11500 4400
+NoConn ~ 11500 4300
+NoConn ~ 11500 4200
+NoConn ~ 11500 4100
+NoConn ~ 11100 4100
+NoConn ~ 11100 4200
+NoConn ~ 11100 4300
+NoConn ~ 11100 4400
+NoConn ~ 11000 4400
+NoConn ~ 11000 4300
+NoConn ~ 11000 4200
+NoConn ~ 11000 4100
+NoConn ~ 10900 4100
+NoConn ~ 10900 4200
+NoConn ~ 10900 4300
+NoConn ~ 10900 4400
+NoConn ~ 10800 4400
+NoConn ~ 10800 4300
+NoConn ~ 10800 4200
+NoConn ~ 10800 4100
+$Comp
+L PROTO_4X4 P55
+U 1 1 50D1426C
+P 15150 2650
+F 0 "P55" H 15150 2350 60  0000 C CNN
+F 1 "PROTO_4X4" H 15150 2950 60  0000 C CNN
+	1    15150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P44
+U 1 1 50D1426B
+P 13050 4250
+F 0 "P44" H 13050 3950 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 4550 60  0000 C CNN
+	1    13050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P34
+U 1 1 50D1426A
+P 12350 4250
+F 0 "P34" H 12350 3950 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 4550 60  0000 C CNN
+	1    12350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P24
+U 1 1 50D14269
+P 11650 4250
+F 0 "P24" H 11650 3950 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 4550 60  0000 C CNN
+	1    11650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P14
+U 1 1 50D14268
+P 10950 4250
+F 0 "P14" H 10950 3950 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 4550 60  0000 C CNN
+	1    10950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P12
+U 1 1 50D14228
+P 10950 2650
+F 0 "P12" H 10950 2350 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 2950 60  0000 C CNN
+	1    10950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P22
+U 1 1 50D14227
+P 11650 2650
+F 0 "P22" H 11650 2350 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 2950 60  0000 C CNN
+	1    11650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P32
+U 1 1 50D14226
+P 12350 2650
+F 0 "P32" H 12350 2350 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 2950 60  0000 C CNN
+	1    12350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P42
+U 1 1 50D14225
+P 13050 2650
+F 0 "P42" H 13050 2350 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 2950 60  0000 C CNN
+	1    13050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P52
+U 1 1 50D14224
+P 13750 3050
+F 0 "P52" H 13750 2750 60  0000 C CNN
+F 1 "PROTO_4X4" H 13750 3350 60  0000 C CNN
+	1    13750 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 2500
+NoConn ~ 10800 2600
+NoConn ~ 10800 2700
+NoConn ~ 10800 2800
+NoConn ~ 10900 2800
+NoConn ~ 10900 2700
+NoConn ~ 10900 2600
+NoConn ~ 10900 2500
+NoConn ~ 11000 2500
+NoConn ~ 11000 2600
+NoConn ~ 11000 2700
+NoConn ~ 11000 2800
+NoConn ~ 11100 2800
+NoConn ~ 11100 2700
+NoConn ~ 11100 2600
+NoConn ~ 11100 2500
+NoConn ~ 11500 2500
+NoConn ~ 11500 2600
+NoConn ~ 11500 2700
+NoConn ~ 11500 2800
+NoConn ~ 11600 2800
+NoConn ~ 11600 2700
+NoConn ~ 11600 2600
+NoConn ~ 11600 2500
+NoConn ~ 11700 2500
+NoConn ~ 11700 2600
+NoConn ~ 11700 2700
+NoConn ~ 11700 2800
+NoConn ~ 11800 2800
+NoConn ~ 11800 2700
+NoConn ~ 11800 2600
+NoConn ~ 11800 2500
+NoConn ~ 12200 2800
+NoConn ~ 12200 2700
+NoConn ~ 12200 2600
+NoConn ~ 12200 2500
+NoConn ~ 12300 2500
+NoConn ~ 12300 2600
+NoConn ~ 12300 2700
+NoConn ~ 12300 2800
+NoConn ~ 12400 2800
+NoConn ~ 12400 2700
+NoConn ~ 12400 2600
+NoConn ~ 12400 2500
+NoConn ~ 12500 2500
+NoConn ~ 12500 2600
+NoConn ~ 12500 2700
+NoConn ~ 12500 2800
+NoConn ~ 12900 2800
+NoConn ~ 12900 2700
+NoConn ~ 12900 2600
+NoConn ~ 12900 2500
+NoConn ~ 13000 2500
+NoConn ~ 13000 2600
+NoConn ~ 13000 2700
+NoConn ~ 13000 2800
+NoConn ~ 13100 2800
+NoConn ~ 13100 2700
+NoConn ~ 13100 2600
+NoConn ~ 13100 2500
+NoConn ~ 13200 2500
+NoConn ~ 13200 2600
+NoConn ~ 13200 2700
+NoConn ~ 13200 2800
+NoConn ~ 13600 2900
+NoConn ~ 13600 3000
+NoConn ~ 13600 3100
+NoConn ~ 13600 3200
+NoConn ~ 13700 3200
+NoConn ~ 13700 3100
+NoConn ~ 13700 3000
+NoConn ~ 13700 2900
+NoConn ~ 13800 2900
+NoConn ~ 13800 3000
+NoConn ~ 13800 3100
+NoConn ~ 13800 3200
+NoConn ~ 13900 3200
+NoConn ~ 13900 3100
+NoConn ~ 13900 3000
+NoConn ~ 13900 2900
+NoConn ~ 13900 2100
+NoConn ~ 13900 2200
+NoConn ~ 13900 2300
+NoConn ~ 13900 2400
+NoConn ~ 13800 2400
+NoConn ~ 13800 2300
+NoConn ~ 13800 2200
+NoConn ~ 13800 2100
+NoConn ~ 13700 2100
+NoConn ~ 13700 2200
+NoConn ~ 13700 2300
+NoConn ~ 13700 2400
+NoConn ~ 13600 2400
+NoConn ~ 13600 2300
+NoConn ~ 13600 2200
+NoConn ~ 13600 2100
+NoConn ~ 13200 2000
+NoConn ~ 13200 1900
+NoConn ~ 13200 1800
+NoConn ~ 13200 1700
+NoConn ~ 13100 1700
+NoConn ~ 13100 1800
+NoConn ~ 13100 1900
+NoConn ~ 13100 2000
+NoConn ~ 13000 2000
+NoConn ~ 13000 1900
+NoConn ~ 13000 1800
+NoConn ~ 13000 1700
+NoConn ~ 12900 1700
+NoConn ~ 12900 1800
+NoConn ~ 12900 1900
+NoConn ~ 12900 2000
+NoConn ~ 12500 2000
+NoConn ~ 12500 1900
+NoConn ~ 12500 1800
+NoConn ~ 12500 1700
+NoConn ~ 12400 1700
+NoConn ~ 12400 1800
+NoConn ~ 12400 1900
+NoConn ~ 12400 2000
+NoConn ~ 12300 2000
+NoConn ~ 12300 1900
+NoConn ~ 12300 1800
+NoConn ~ 12300 1700
+NoConn ~ 12200 1700
+NoConn ~ 12200 1800
+NoConn ~ 12200 1900
+NoConn ~ 12200 2000
+NoConn ~ 11800 1700
+NoConn ~ 11800 1800
+NoConn ~ 11800 1900
+NoConn ~ 11800 2000
+NoConn ~ 11700 2000
+NoConn ~ 11700 1900
+NoConn ~ 11700 1800
+NoConn ~ 11700 1700
+NoConn ~ 11600 1700
+NoConn ~ 11600 1800
+NoConn ~ 11600 1900
+NoConn ~ 11600 2000
+NoConn ~ 11500 2000
+NoConn ~ 11500 1900
+NoConn ~ 11500 1800
+NoConn ~ 11500 1700
+NoConn ~ 11100 1700
+NoConn ~ 11100 1800
+NoConn ~ 11100 1900
+NoConn ~ 11100 2000
+NoConn ~ 11000 2000
+NoConn ~ 11000 1900
+NoConn ~ 11000 1800
+NoConn ~ 11000 1700
+NoConn ~ 10900 1700
+NoConn ~ 10900 1800
+NoConn ~ 10900 1900
+NoConn ~ 10900 2000
+NoConn ~ 10800 2000
+NoConn ~ 10800 1900
+NoConn ~ 10800 1800
+NoConn ~ 10800 1700
+$Comp
+L PROTO_4X4 P51
+U 1 1 50D14185
+P 13750 2250
+F 0 "P51" H 13750 1950 60  0000 C CNN
+F 1 "PROTO_4X4" H 13750 2550 60  0000 C CNN
+	1    13750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P41
+U 1 1 50D14181
+P 13050 1850
+F 0 "P41" H 13050 1550 60  0000 C CNN
+F 1 "PROTO_4X4" H 13050 2150 60  0000 C CNN
+	1    13050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P31
+U 1 1 50D1417E
+P 12350 1850
+F 0 "P31" H 12350 1550 60  0000 C CNN
+F 1 "PROTO_4X4" H 12350 2150 60  0000 C CNN
+	1    12350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P21
+U 1 1 50D1417B
+P 11650 1850
+F 0 "P21" H 11650 1550 60  0000 C CNN
+F 1 "PROTO_4X4" H 11650 2150 60  0000 C CNN
+	1    11650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PROTO_4X4 P11
+U 1 1 50D14171
+P 10950 1850
+F 0 "P11" H 10950 1550 60  0000 C CNN
+F 1 "PROTO_4X4" H 10950 2150 60  0000 C CNN
+	1    10950 1850
+	1    0    0    -1  
+$EndComp
 $Comp
 L JUMPER JP4
 U 1 1 4FE3E18B
@@ -941,146 +2095,6 @@ F 0 "JP3" H 9200 2150 60  0000 C CNN
 F 1 "DTR/DSR" H 9200 1920 40  0000 C CNN
 	1    9200 2000
 	-1   0    0    -1  
-$EndComp
-NoConn ~ 15900 8000
-NoConn ~ 15900 7900
-NoConn ~ 15900 7800
-NoConn ~ 15900 7700
-NoConn ~ 15900 7600
-NoConn ~ 15900 7500
-NoConn ~ 15900 7400
-NoConn ~ 15900 7300
-NoConn ~ 15100 8000
-NoConn ~ 15100 7900
-NoConn ~ 15100 7800
-NoConn ~ 15100 7700
-NoConn ~ 15100 7600
-NoConn ~ 15100 7500
-NoConn ~ 15100 7400
-NoConn ~ 15100 7300
-$Comp
-L CONN_8X2 P61
-U 1 1 4FE2D061
-P 11100 9650
-F 0 "P61" H 11100 10100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 9650 50  0000 C CNN
-	1    11100 9650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 14000 9600
-NoConn ~ 14000 9500
-NoConn ~ 14000 9400
-NoConn ~ 14000 9300
-NoConn ~ 14800 9600
-NoConn ~ 14800 9500
-NoConn ~ 14800 9400
-NoConn ~ 14800 9300
-NoConn ~ 14000 10200
-NoConn ~ 14000 10100
-NoConn ~ 14000 10000
-NoConn ~ 14000 9900
-NoConn ~ 14800 10200
-NoConn ~ 14800 10100
-NoConn ~ 14800 10000
-NoConn ~ 14800 9900
-NoConn ~ 15100 9600
-NoConn ~ 15100 9500
-NoConn ~ 15100 9400
-NoConn ~ 15100 9300
-NoConn ~ 15900 9600
-NoConn ~ 15900 9500
-NoConn ~ 15900 9400
-NoConn ~ 15900 9300
-NoConn ~ 5300 8600
-NoConn ~ 5300 8700
-NoConn ~ 5300 8800
-NoConn ~ 5300 8900
-NoConn ~ 6100 8800
-NoConn ~ 6100 8600
-NoConn ~ 7200 8800
-NoConn ~ 7200 8900
-NoConn ~ 7200 9000
-NoConn ~ 7200 9100
-NoConn ~ 7200 9200
-NoConn ~ 7200 9300
-NoConn ~ 6400 9300
-NoConn ~ 6400 9200
-NoConn ~ 6400 9100
-NoConn ~ 6400 9000
-NoConn ~ 6400 8900
-NoConn ~ 6400 8800
-NoConn ~ 12600 10000
-NoConn ~ 12600 9900
-NoConn ~ 12600 9800
-NoConn ~ 12600 9700
-NoConn ~ 12600 9600
-NoConn ~ 12600 9500
-NoConn ~ 12600 9400
-NoConn ~ 12600 9300
-NoConn ~ 11800 10000
-NoConn ~ 11800 9900
-NoConn ~ 11800 9800
-NoConn ~ 11800 9700
-NoConn ~ 11800 9600
-NoConn ~ 11800 9500
-NoConn ~ 11800 9400
-NoConn ~ 11800 9300
-NoConn ~ 5300 10100
-NoConn ~ 5300 10000
-NoConn ~ 6100 10100
-NoConn ~ 6100 10000
-NoConn ~ 5300 9600
-NoConn ~ 6100 9600
-NoConn ~ 12900 10000
-NoConn ~ 12900 9900
-NoConn ~ 12900 9800
-NoConn ~ 12900 9700
-NoConn ~ 12900 9600
-NoConn ~ 12900 9500
-NoConn ~ 12900 9400
-NoConn ~ 12900 9300
-NoConn ~ 13700 10000
-NoConn ~ 13700 9900
-NoConn ~ 13700 9800
-NoConn ~ 13700 9700
-NoConn ~ 13700 9600
-NoConn ~ 13700 9500
-NoConn ~ 13700 9400
-$Comp
-L CONN_8X2 P63
-U 1 1 4FE2D069
-P 13300 9650
-F 0 "P63" H 13300 10100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 9650 50  0000 C CNN
-	1    13300 9650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13700 9300
-NoConn ~ 11500 9600
-NoConn ~ 11500 9500
-NoConn ~ 11500 9400
-NoConn ~ 11500 9300
-NoConn ~ 10700 9300
-NoConn ~ 10700 9400
-NoConn ~ 10700 9500
-NoConn ~ 10700 9600
-$Comp
-L CONN_4X2 P64
-U 1 1 4FE2D06F
-P 5700 10150
-F 0 "P64" H 5700 10400 50  0000 C CNN
-F 1 "CONN_4X2" V 5700 10150 40  0000 C CNN
-	1    5700 10150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P62
-U 1 1 4FE2D066
-P 12200 9650
-F 0 "P62" H 12200 10100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 9650 50  0000 C CNN
-	1    12200 9650
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R20
@@ -1109,42 +2123,15 @@ F 1 "130" V 8100 4650 50  0000 C CNN
 	1    8100 4650
 	-1   0    0    1   
 $EndComp
-$Comp
-L GND #PWR01
-U 1 1 4FDAD847
-P 800 10600
-F 0 "#PWR01" H 800 10600 30  0001 C CNN
-F 1 "GND" H 800 10530 30  0001 C CNN
-	1    800  10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR02
-U 1 1 4FDAD7C2
-P 800 8300
-F 0 "#PWR02" H 800 8400 30  0001 C CNN
-F 1 "VCC" H 800 8400 30  0000 C CNN
-	1    800  8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P10
-U 1 1 4FD19067
-P 1300 8950
-F 0 "P10" H 1300 9400 60  0000 C CNN
-F 1 "CONN_8X2" V 1300 8950 50  0000 C CNN
-	1    1300 8950
-	1    0    0    -1  
-$EndComp
 Text Label 8400 5400 0    60   ~ 0
 KBD_VCC
 $Comp
 L CP1 C2
 U 1 1 4FDAAA08
-P 5500 6700
-F 0 "C2" H 5550 6800 50  0000 L CNN
-F 1 "0.1uF" H 5550 6600 50  0000 L CNN
-	1    5500 6700
+P 6300 7500
+F 0 "C2" H 6350 7600 50  0000 L CNN
+F 1 "0.1uF" H 6350 7400 50  0000 L CNN
+	1    6300 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1182,1108 +2169,6 @@ F 0 "C6" H 6750 800 50  0000 L CNN
 F 1 "0.1uF" H 6750 600 50  0000 L CNN
 	1    6700 700 
 	0    1    1    0   
-$EndComp
-NoConn ~ 6100 9300
-NoConn ~ 5300 9300
-$Comp
-L CONN_2X2 P60
-U 1 1 4FD1A04D
-P 5700 9250
-F 0 "P60" H 5700 9400 50  0000 C CNN
-F 1 "CONN_2X2" H 5710 9120 40  0000 C CNN
-	1    5700 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2X2 P59
-U 1 1 4FD1A02F
-P 5700 9650
-F 0 "P59" H 5700 9800 50  0000 C CNN
-F 1 "CONN_2X2" H 5710 9520 40  0000 C CNN
-	1    5700 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_4X2 P39
-U 1 1 4FD199D4
-P 5700 8750
-F 0 "P39" H 5700 9000 50  0000 C CNN
-F 1 "CONN_4X2" V 5700 8750 40  0000 C CNN
-	1    5700 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_4X2 P49
-U 1 1 4FD199D3
-P 15500 9450
-F 0 "P49" H 15500 9700 50  0000 C CNN
-F 1 "CONN_4X2" V 15500 9450 40  0000 C CNN
-	1    15500 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_4X2 P29
-U 1 1 4FD199C9
-P 14400 10050
-F 0 "P29" H 14400 10300 50  0000 C CNN
-F 1 "CONN_4X2" V 14400 10050 40  0000 C CNN
-	1    14400 10050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_4X2 P19
-U 1 1 4FD199B8
-P 14400 9450
-F 0 "P19" H 14400 9700 50  0000 C CNN
-F 1 "CONN_4X2" V 14400 9450 40  0000 C CNN
-	1    14400 9450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 15900 10200
-NoConn ~ 15900 10100
-NoConn ~ 15900 10000
-NoConn ~ 15900 9900
-NoConn ~ 15100 10200
-NoConn ~ 15100 10100
-NoConn ~ 15100 10000
-NoConn ~ 15100 9900
-$Comp
-L CONN_4X2 P50
-U 1 1 4FD199A3
-P 15500 10050
-F 0 "P50" H 15500 10300 50  0000 C CNN
-F 1 "CONN_4X2" V 15500 10050 40  0000 C CNN
-	1    15500 10050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P58
-U 1 1 4FD19971
-P 15500 8650
-F 0 "P58" H 15500 9100 60  0000 C CNN
-F 1 "CONN_8X2" V 15500 8650 50  0000 C CNN
-	1    15500 8650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 15100 8300
-NoConn ~ 15100 8400
-NoConn ~ 15100 8500
-NoConn ~ 15100 8600
-NoConn ~ 15100 8700
-NoConn ~ 15100 8800
-NoConn ~ 15100 8900
-NoConn ~ 15100 9000
-NoConn ~ 15900 8300
-NoConn ~ 15900 8400
-NoConn ~ 15900 8500
-NoConn ~ 15900 8600
-NoConn ~ 15900 8700
-NoConn ~ 15900 8800
-NoConn ~ 15900 8900
-NoConn ~ 15900 9000
-$Comp
-L CONN_8X2 P54
-U 1 1 4FD19970
-P 15500 4650
-F 0 "P54" H 15500 5100 60  0000 C CNN
-F 1 "CONN_8X2" V 15500 4650 50  0000 C CNN
-	1    15500 4650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 15900 7000
-NoConn ~ 15900 6900
-NoConn ~ 15900 6800
-NoConn ~ 15900 6700
-NoConn ~ 15900 6600
-NoConn ~ 15900 6500
-NoConn ~ 15900 6400
-NoConn ~ 15900 6300
-NoConn ~ 15900 6000
-NoConn ~ 15900 5900
-NoConn ~ 15900 5800
-NoConn ~ 15900 5700
-NoConn ~ 15900 5600
-NoConn ~ 15900 5500
-NoConn ~ 15900 5400
-NoConn ~ 15900 5300
-NoConn ~ 15900 5000
-NoConn ~ 15900 4900
-NoConn ~ 15900 4800
-NoConn ~ 15900 4700
-NoConn ~ 15900 4600
-NoConn ~ 15900 4500
-NoConn ~ 15900 4400
-NoConn ~ 15900 4300
-NoConn ~ 15900 4000
-NoConn ~ 15900 3900
-NoConn ~ 15900 3800
-NoConn ~ 15900 3700
-NoConn ~ 15900 3600
-NoConn ~ 15900 3500
-NoConn ~ 15900 3400
-NoConn ~ 15900 3300
-NoConn ~ 15900 3000
-NoConn ~ 15900 2900
-NoConn ~ 15900 2800
-NoConn ~ 15900 2700
-NoConn ~ 15900 2600
-NoConn ~ 15900 2500
-NoConn ~ 15900 2400
-NoConn ~ 15900 2300
-NoConn ~ 15100 7000
-NoConn ~ 15100 6900
-NoConn ~ 15100 6800
-NoConn ~ 15100 6700
-NoConn ~ 15100 6600
-NoConn ~ 15100 6500
-NoConn ~ 15100 6400
-NoConn ~ 15100 6300
-NoConn ~ 15100 6000
-NoConn ~ 15100 5900
-NoConn ~ 15100 5800
-NoConn ~ 15100 5700
-NoConn ~ 15100 5600
-NoConn ~ 15100 5500
-NoConn ~ 15100 5400
-NoConn ~ 15100 5300
-NoConn ~ 15100 5000
-NoConn ~ 15100 4900
-NoConn ~ 15100 4800
-NoConn ~ 15100 4700
-NoConn ~ 15100 4600
-NoConn ~ 15100 4500
-NoConn ~ 15100 4400
-NoConn ~ 15100 4300
-NoConn ~ 15100 4000
-NoConn ~ 15100 3900
-NoConn ~ 15100 3800
-NoConn ~ 15100 3700
-NoConn ~ 15100 3600
-NoConn ~ 15100 3500
-NoConn ~ 15100 3400
-NoConn ~ 15100 3300
-NoConn ~ 15100 3000
-NoConn ~ 15100 2900
-NoConn ~ 15100 2800
-NoConn ~ 15100 2700
-NoConn ~ 15100 2600
-NoConn ~ 15100 2500
-NoConn ~ 15100 2400
-NoConn ~ 15100 2300
-$Comp
-L CONN_8X2 P51
-U 1 1 4FD1996F
-P 15500 2650
-F 0 "P51" H 15500 3100 60  0000 C CNN
-F 1 "CONN_8X2" V 15500 2650 50  0000 C CNN
-	1    15500 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P52
-U 1 1 4FD1996E
-P 15500 3650
-F 0 "P52" H 15500 4100 60  0000 C CNN
-F 1 "CONN_8X2" V 15500 3650 50  0000 C CNN
-	1    15500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P53
-U 1 1 4FD1996D
-P 6800 8950
-F 0 "P53" H 6800 9400 60  0000 C CNN
-F 1 "CONN_8X2" V 6800 8950 50  0000 C CNN
-	1    6800 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P55
-U 1 1 4FD1996C
-P 15500 5650
-F 0 "P55" H 15500 6100 60  0000 C CNN
-F 1 "CONN_8X2" V 15500 5650 50  0000 C CNN
-	1    15500 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P56
-U 1 1 4FD1996B
-P 15500 6650
-F 0 "P56" H 15500 7100 60  0000 C CNN
-F 1 "CONN_8X2" V 15500 6650 50  0000 C CNN
-	1    15500 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P57
-U 1 1 4FD1996A
-P 15500 7650
-F 0 "P57" H 15500 8100 60  0000 C CNN
-F 1 "CONN_8X2" V 15500 7650 50  0000 C CNN
-	1    15500 7650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 15800 5400
-NoConn ~ 14700 6400
-$Comp
-L CONN_8X2 P30
-U 1 1 4FD196C8
-P 3500 8950
-F 0 "P30" H 3500 9400 60  0000 C CNN
-F 1 "CONN_8X2" V 3500 8950 50  0000 C CNN
-	1    3500 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P31
-U 1 1 4FD196C7
-P 13300 2650
-F 0 "P31" H 13300 3100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 2650 50  0000 C CNN
-	1    13300 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P32
-U 1 1 4FD196C6
-P 13300 3650
-F 0 "P32" H 13300 4100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 3650 50  0000 C CNN
-	1    13300 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P33
-U 1 1 4FD196C5
-P 13300 4650
-F 0 "P33" H 13300 5100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 4650 50  0000 C CNN
-	1    13300 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P35
-U 1 1 4FD196C4
-P 13300 6650
-F 0 "P35" H 13300 7100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 6650 50  0000 C CNN
-	1    13300 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P36
-U 1 1 4FD196C3
-P 13300 7650
-F 0 "P36" H 13300 8100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 7650 50  0000 C CNN
-	1    13300 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P37
-U 1 1 4FD196C2
-P 13300 8650
-F 0 "P37" H 13300 9100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 8650 50  0000 C CNN
-	1    13300 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P47
-U 1 1 4FD196C1
-P 14400 8650
-F 0 "P47" H 14400 9100 60  0000 C CNN
-F 1 "CONN_8X2" V 14400 8650 50  0000 C CNN
-	1    14400 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P46
-U 1 1 4FD196C0
-P 14400 7650
-F 0 "P46" H 14400 8100 60  0000 C CNN
-F 1 "CONN_8X2" V 14400 7650 50  0000 C CNN
-	1    14400 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P45
-U 1 1 4FD196BF
-P 14400 6650
-F 0 "P45" H 14400 7100 60  0000 C CNN
-F 1 "CONN_8X2" V 14400 6650 50  0000 C CNN
-	1    14400 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P43
-U 1 1 4FD196BE
-P 14400 4650
-F 0 "P43" H 14400 5100 60  0000 C CNN
-F 1 "CONN_8X2" V 14400 4650 50  0000 C CNN
-	1    14400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P42
-U 1 1 4FD196BD
-P 14400 3650
-F 0 "P42" H 14400 4100 60  0000 C CNN
-F 1 "CONN_8X2" V 14400 3650 50  0000 C CNN
-	1    14400 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P41
-U 1 1 4FD196BC
-P 14400 2650
-F 0 "P41" H 14400 3100 60  0000 C CNN
-F 1 "CONN_8X2" V 14400 2650 50  0000 C CNN
-	1    14400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P40
-U 1 1 4FD196BB
-P 4600 8950
-F 0 "P40" H 4600 9400 60  0000 C CNN
-F 1 "CONN_8X2" V 4600 8950 50  0000 C CNN
-	1    4600 8950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3100 8800
-NoConn ~ 3100 8900
-NoConn ~ 3100 9000
-NoConn ~ 3100 9100
-NoConn ~ 3100 9200
-NoConn ~ 3100 9300
-NoConn ~ 12900 2300
-NoConn ~ 12900 2400
-NoConn ~ 12900 2500
-NoConn ~ 12900 2600
-NoConn ~ 12900 2700
-NoConn ~ 12900 2800
-NoConn ~ 12900 2900
-NoConn ~ 12900 3000
-NoConn ~ 12900 3300
-NoConn ~ 12900 3400
-NoConn ~ 12900 3500
-NoConn ~ 12900 3600
-NoConn ~ 12900 3700
-NoConn ~ 12900 3800
-NoConn ~ 12900 3900
-NoConn ~ 12900 4000
-NoConn ~ 12900 4300
-NoConn ~ 12900 4400
-NoConn ~ 12900 4500
-NoConn ~ 12900 4600
-NoConn ~ 12900 4700
-NoConn ~ 12900 4800
-NoConn ~ 12900 4900
-NoConn ~ 12900 5000
-NoConn ~ 12900 5300
-NoConn ~ 12900 5400
-NoConn ~ 12900 5500
-NoConn ~ 12900 5600
-NoConn ~ 12900 5700
-NoConn ~ 12900 5800
-NoConn ~ 12900 5900
-NoConn ~ 12900 6000
-NoConn ~ 12900 6300
-NoConn ~ 12900 6400
-NoConn ~ 12900 6500
-NoConn ~ 12900 6600
-NoConn ~ 12900 6700
-NoConn ~ 12900 6800
-NoConn ~ 12900 6900
-NoConn ~ 12900 7000
-NoConn ~ 12900 7300
-NoConn ~ 12900 7400
-NoConn ~ 12900 7500
-NoConn ~ 12900 7600
-NoConn ~ 12900 7700
-NoConn ~ 12900 7800
-NoConn ~ 12900 7900
-NoConn ~ 12900 8000
-NoConn ~ 3100 9600
-NoConn ~ 3100 9700
-NoConn ~ 3100 9800
-NoConn ~ 3100 9900
-NoConn ~ 3100 10000
-NoConn ~ 3100 10100
-NoConn ~ 3900 8800
-NoConn ~ 3900 8900
-NoConn ~ 3900 9000
-NoConn ~ 3900 9100
-NoConn ~ 3900 9200
-NoConn ~ 3900 9300
-NoConn ~ 13700 2300
-NoConn ~ 13700 2400
-NoConn ~ 13700 2500
-NoConn ~ 13700 2600
-NoConn ~ 13700 2700
-NoConn ~ 13700 2800
-NoConn ~ 13700 2900
-NoConn ~ 13700 3000
-NoConn ~ 13700 3300
-NoConn ~ 13700 3400
-NoConn ~ 13700 3500
-NoConn ~ 13700 3600
-NoConn ~ 13700 3700
-NoConn ~ 13700 3800
-NoConn ~ 13700 3900
-NoConn ~ 13700 4000
-NoConn ~ 13700 4300
-NoConn ~ 13700 4400
-NoConn ~ 13700 4500
-NoConn ~ 13700 4600
-NoConn ~ 13700 4700
-NoConn ~ 13700 4800
-NoConn ~ 13700 4900
-NoConn ~ 13700 5000
-NoConn ~ 13700 5300
-NoConn ~ 13700 5400
-NoConn ~ 13700 5500
-NoConn ~ 13700 5600
-NoConn ~ 13700 5700
-NoConn ~ 13700 5800
-NoConn ~ 13700 5900
-NoConn ~ 13700 6000
-NoConn ~ 13700 6300
-NoConn ~ 13700 6400
-NoConn ~ 13700 6500
-NoConn ~ 13700 6600
-NoConn ~ 13700 6700
-NoConn ~ 13700 6800
-NoConn ~ 13700 6900
-NoConn ~ 13700 7000
-NoConn ~ 13700 7300
-NoConn ~ 13700 7400
-NoConn ~ 13700 7500
-NoConn ~ 13700 7600
-NoConn ~ 13700 7700
-NoConn ~ 13700 7800
-NoConn ~ 13700 7900
-NoConn ~ 13700 8000
-NoConn ~ 3900 9600
-NoConn ~ 3900 9700
-NoConn ~ 3900 9800
-NoConn ~ 3900 9900
-NoConn ~ 3900 10000
-NoConn ~ 3900 10100
-NoConn ~ 4200 8800
-NoConn ~ 4200 8900
-NoConn ~ 4200 9000
-NoConn ~ 4200 9100
-NoConn ~ 4200 9200
-NoConn ~ 4200 9300
-NoConn ~ 14000 2300
-NoConn ~ 14000 2400
-NoConn ~ 14000 2500
-NoConn ~ 14000 2600
-NoConn ~ 14000 2700
-NoConn ~ 14000 2800
-NoConn ~ 14000 2900
-NoConn ~ 14000 3000
-NoConn ~ 14000 3300
-NoConn ~ 14000 3400
-NoConn ~ 14000 3500
-NoConn ~ 14000 3600
-NoConn ~ 14000 3700
-NoConn ~ 14000 3800
-NoConn ~ 14000 3900
-NoConn ~ 14000 4000
-NoConn ~ 14000 4300
-NoConn ~ 14000 4400
-NoConn ~ 14000 4500
-NoConn ~ 14000 4600
-NoConn ~ 14000 4700
-NoConn ~ 14000 4800
-NoConn ~ 14000 4900
-NoConn ~ 14000 5000
-NoConn ~ 14000 5300
-NoConn ~ 14000 5400
-NoConn ~ 14000 5500
-NoConn ~ 14000 5600
-NoConn ~ 14000 5700
-NoConn ~ 14000 5800
-NoConn ~ 14000 5900
-NoConn ~ 14000 6000
-NoConn ~ 14000 6300
-NoConn ~ 14000 6400
-NoConn ~ 14000 6500
-NoConn ~ 14000 6600
-NoConn ~ 14000 6700
-NoConn ~ 14000 6800
-NoConn ~ 14000 6900
-NoConn ~ 14000 7000
-NoConn ~ 14000 7300
-NoConn ~ 14000 7400
-NoConn ~ 14000 7500
-NoConn ~ 14000 7600
-NoConn ~ 14000 7700
-NoConn ~ 14000 7800
-NoConn ~ 14000 7900
-NoConn ~ 14000 8000
-NoConn ~ 4200 9600
-NoConn ~ 4200 9700
-NoConn ~ 4200 9800
-NoConn ~ 4200 9900
-NoConn ~ 4200 10000
-NoConn ~ 4200 10100
-NoConn ~ 5000 8800
-NoConn ~ 5000 8900
-NoConn ~ 5000 9000
-NoConn ~ 5000 9100
-NoConn ~ 5000 9200
-NoConn ~ 5000 9300
-NoConn ~ 14800 2300
-NoConn ~ 14800 2400
-NoConn ~ 14800 2500
-NoConn ~ 14800 2600
-NoConn ~ 14800 2700
-NoConn ~ 14800 2800
-NoConn ~ 14800 2900
-NoConn ~ 14800 3000
-NoConn ~ 14800 3300
-NoConn ~ 14800 3400
-NoConn ~ 14800 3500
-NoConn ~ 14800 3600
-NoConn ~ 14800 3700
-NoConn ~ 14800 3800
-NoConn ~ 14800 3900
-NoConn ~ 14800 4000
-NoConn ~ 14800 4300
-NoConn ~ 14800 4400
-NoConn ~ 14800 4500
-NoConn ~ 14800 4600
-NoConn ~ 14800 4700
-NoConn ~ 14800 4800
-NoConn ~ 14800 4900
-NoConn ~ 14800 5000
-NoConn ~ 14800 5300
-NoConn ~ 14800 5400
-NoConn ~ 14800 5500
-NoConn ~ 14800 5600
-NoConn ~ 14800 5700
-NoConn ~ 14800 5800
-NoConn ~ 14800 5900
-NoConn ~ 14800 6000
-NoConn ~ 14800 6300
-NoConn ~ 14800 6400
-NoConn ~ 14800 6500
-NoConn ~ 14800 6600
-NoConn ~ 14800 6700
-NoConn ~ 14800 6800
-NoConn ~ 14800 6900
-NoConn ~ 14800 7000
-NoConn ~ 14800 7300
-NoConn ~ 14800 7400
-NoConn ~ 14800 7500
-NoConn ~ 14800 7600
-NoConn ~ 14800 7700
-NoConn ~ 14800 7800
-NoConn ~ 14800 7900
-NoConn ~ 14800 8000
-NoConn ~ 5000 9600
-NoConn ~ 5000 9700
-NoConn ~ 5000 9800
-NoConn ~ 5000 9900
-NoConn ~ 5000 10000
-NoConn ~ 5000 10100
-$Comp
-L CONN_8X2 P34
-U 1 1 4FD196BA
-P 13300 5650
-F 0 "P34" H 13300 6100 60  0000 C CNN
-F 1 "CONN_8X2" V 13300 5650 50  0000 C CNN
-	1    13300 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P44
-U 1 1 4FD196B9
-P 14400 5650
-F 0 "P44" H 14400 6100 60  0000 C CNN
-F 1 "CONN_8X2" V 14400 5650 50  0000 C CNN
-	1    14400 5650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 14800 9000
-NoConn ~ 14800 8900
-NoConn ~ 14800 8800
-NoConn ~ 14800 8700
-NoConn ~ 14800 8600
-NoConn ~ 14800 8500
-NoConn ~ 14800 8400
-NoConn ~ 14800 8300
-NoConn ~ 14000 9000
-NoConn ~ 14000 8900
-NoConn ~ 14000 8800
-NoConn ~ 14000 8700
-NoConn ~ 14000 8600
-NoConn ~ 14000 8500
-NoConn ~ 14000 8400
-NoConn ~ 14000 8300
-NoConn ~ 13700 9000
-NoConn ~ 13700 8900
-NoConn ~ 13700 8800
-NoConn ~ 13700 8700
-NoConn ~ 13700 8600
-NoConn ~ 13700 8500
-NoConn ~ 13700 8400
-NoConn ~ 13700 8300
-NoConn ~ 12900 9000
-NoConn ~ 12900 8900
-NoConn ~ 12900 8800
-NoConn ~ 12900 8700
-NoConn ~ 12900 8600
-NoConn ~ 12900 8500
-NoConn ~ 12900 8400
-NoConn ~ 12900 8300
-$Comp
-L CONN_8X2 P48
-U 1 1 4FD196B8
-P 4600 9950
-F 0 "P48" H 4600 10400 60  0000 C CNN
-F 1 "CONN_8X2" V 4600 9950 50  0000 C CNN
-	1    4600 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P38
-U 1 1 4FD196B7
-P 3500 9950
-F 0 "P38" H 3500 10400 60  0000 C CNN
-F 1 "CONN_8X2" V 3500 9950 50  0000 C CNN
-	1    3500 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P18
-U 1 1 4FD19195
-P 11100 8650
-F 0 "P18" H 11100 9100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 8650 50  0000 C CNN
-	1    11100 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P28
-U 1 1 4FD19192
-P 12200 8650
-F 0 "P28" H 12200 9100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 8650 50  0000 C CNN
-	1    12200 8650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10700 8300
-NoConn ~ 10700 8400
-NoConn ~ 10700 8500
-NoConn ~ 10700 8600
-NoConn ~ 10700 8700
-NoConn ~ 10700 8800
-NoConn ~ 10700 8900
-NoConn ~ 10700 9000
-NoConn ~ 11500 8300
-NoConn ~ 11500 8400
-NoConn ~ 11500 8500
-NoConn ~ 11500 8600
-NoConn ~ 11500 8700
-NoConn ~ 11500 8800
-NoConn ~ 11500 8900
-NoConn ~ 11500 9000
-NoConn ~ 11800 8300
-NoConn ~ 11800 8400
-NoConn ~ 11800 8500
-NoConn ~ 11800 8600
-NoConn ~ 11800 8700
-NoConn ~ 11800 8800
-NoConn ~ 11800 8900
-NoConn ~ 11800 9000
-NoConn ~ 12600 8300
-NoConn ~ 12600 8400
-NoConn ~ 12600 8500
-NoConn ~ 12600 8600
-NoConn ~ 12600 8700
-NoConn ~ 12600 8800
-NoConn ~ 12600 8900
-NoConn ~ 12600 9000
-$Comp
-L CONN_8X2 P24
-U 1 1 4FD190AD
-P 12200 5650
-F 0 "P24" H 12200 6100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 5650 50  0000 C CNN
-	1    12200 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P14
-U 1 1 4FD19087
-P 11100 5650
-F 0 "P14" H 11100 6100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 5650 50  0000 C CNN
-	1    11100 5650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2800 10100
-NoConn ~ 2800 10000
-NoConn ~ 2800 9900
-NoConn ~ 2800 9800
-NoConn ~ 2800 9700
-NoConn ~ 2800 9600
-NoConn ~ 12600 8000
-NoConn ~ 12600 7900
-NoConn ~ 12600 7800
-NoConn ~ 12600 7700
-NoConn ~ 12600 7600
-NoConn ~ 12600 7500
-NoConn ~ 12600 7400
-NoConn ~ 12600 7300
-NoConn ~ 12600 7000
-NoConn ~ 12600 6900
-NoConn ~ 12600 6800
-NoConn ~ 12600 6700
-NoConn ~ 12600 6600
-NoConn ~ 12600 6500
-NoConn ~ 12600 6400
-NoConn ~ 12600 6300
-NoConn ~ 12600 6000
-NoConn ~ 12600 5900
-NoConn ~ 12600 5800
-NoConn ~ 12600 5700
-NoConn ~ 12600 5600
-NoConn ~ 12600 5500
-NoConn ~ 12600 5400
-NoConn ~ 12600 5300
-NoConn ~ 12600 5000
-NoConn ~ 12600 4900
-NoConn ~ 12600 4800
-NoConn ~ 12600 4700
-NoConn ~ 12600 4600
-NoConn ~ 12600 4500
-NoConn ~ 12600 4400
-NoConn ~ 12600 4300
-NoConn ~ 12600 4000
-NoConn ~ 12600 3900
-NoConn ~ 12600 3800
-NoConn ~ 12600 3700
-NoConn ~ 12600 3600
-NoConn ~ 12600 3500
-NoConn ~ 12600 3400
-NoConn ~ 12600 3300
-NoConn ~ 12600 3000
-NoConn ~ 12600 2900
-NoConn ~ 12600 2800
-NoConn ~ 12600 2700
-NoConn ~ 12600 2600
-NoConn ~ 12600 2500
-NoConn ~ 12600 2400
-NoConn ~ 12600 2300
-NoConn ~ 2800 9300
-NoConn ~ 2800 9200
-NoConn ~ 2800 9100
-NoConn ~ 2800 9000
-NoConn ~ 2800 8900
-NoConn ~ 2800 8800
-NoConn ~ 2000 10100
-NoConn ~ 2000 10000
-NoConn ~ 2000 9900
-NoConn ~ 2000 9800
-NoConn ~ 2000 9700
-NoConn ~ 2000 9600
-NoConn ~ 11800 8000
-NoConn ~ 11800 7900
-NoConn ~ 11800 7800
-NoConn ~ 11800 7700
-NoConn ~ 11800 7600
-NoConn ~ 11800 7500
-NoConn ~ 11800 7400
-NoConn ~ 11800 7300
-NoConn ~ 11800 7000
-NoConn ~ 11800 6900
-NoConn ~ 11800 6800
-NoConn ~ 11800 6700
-NoConn ~ 11800 6600
-NoConn ~ 11800 6500
-NoConn ~ 11800 6400
-NoConn ~ 11800 6300
-NoConn ~ 11800 6000
-NoConn ~ 11800 5900
-NoConn ~ 11800 5800
-NoConn ~ 11800 5700
-NoConn ~ 11800 5600
-NoConn ~ 11800 5500
-NoConn ~ 11800 5400
-NoConn ~ 11800 5300
-NoConn ~ 11800 5000
-NoConn ~ 11800 4900
-NoConn ~ 11800 4800
-NoConn ~ 11800 4700
-NoConn ~ 11800 4600
-NoConn ~ 11800 4500
-NoConn ~ 11800 4400
-NoConn ~ 11800 4300
-NoConn ~ 11800 4000
-NoConn ~ 11800 3900
-NoConn ~ 11800 3800
-NoConn ~ 11800 3700
-NoConn ~ 11800 3600
-NoConn ~ 11800 3500
-NoConn ~ 11800 3400
-NoConn ~ 11800 3300
-NoConn ~ 11800 3000
-NoConn ~ 11800 2900
-NoConn ~ 11800 2800
-NoConn ~ 11800 2700
-NoConn ~ 11800 2600
-NoConn ~ 11800 2500
-NoConn ~ 11800 2400
-NoConn ~ 11800 2300
-NoConn ~ 2000 9300
-NoConn ~ 2000 9200
-NoConn ~ 2000 9100
-NoConn ~ 2000 9000
-NoConn ~ 2000 8900
-NoConn ~ 2000 8800
-NoConn ~ 1700 10100
-NoConn ~ 1700 10000
-NoConn ~ 1700 9900
-NoConn ~ 1700 9800
-NoConn ~ 1700 9700
-NoConn ~ 1700 9600
-NoConn ~ 11500 8000
-NoConn ~ 11500 7900
-NoConn ~ 11500 7800
-NoConn ~ 11500 7700
-NoConn ~ 11500 7600
-NoConn ~ 11500 7500
-NoConn ~ 11500 7400
-NoConn ~ 11500 7300
-NoConn ~ 11500 7000
-NoConn ~ 11500 6900
-NoConn ~ 11500 6800
-NoConn ~ 11500 6700
-NoConn ~ 11500 6600
-NoConn ~ 11500 6500
-NoConn ~ 11500 6400
-NoConn ~ 11500 6300
-NoConn ~ 11500 6000
-NoConn ~ 11500 5900
-NoConn ~ 11500 5800
-NoConn ~ 11500 5700
-NoConn ~ 11500 5600
-NoConn ~ 11500 5500
-NoConn ~ 11500 5400
-NoConn ~ 11500 5300
-NoConn ~ 11500 5000
-NoConn ~ 11500 4900
-NoConn ~ 11500 4800
-NoConn ~ 11500 4700
-NoConn ~ 11500 4600
-NoConn ~ 11500 4500
-NoConn ~ 11500 4400
-NoConn ~ 11500 4300
-NoConn ~ 11500 4000
-NoConn ~ 11500 3900
-NoConn ~ 11500 3800
-NoConn ~ 11500 3700
-NoConn ~ 11500 3600
-NoConn ~ 11500 3500
-NoConn ~ 11500 3400
-NoConn ~ 11500 3300
-NoConn ~ 11500 3000
-NoConn ~ 11500 2900
-NoConn ~ 11500 2800
-NoConn ~ 11500 2700
-NoConn ~ 11500 2600
-NoConn ~ 11500 2500
-NoConn ~ 11500 2400
-NoConn ~ 11500 2300
-NoConn ~ 1700 9300
-NoConn ~ 1700 9200
-NoConn ~ 1700 9100
-NoConn ~ 1700 9000
-NoConn ~ 1700 8900
-NoConn ~ 1700 8800
-NoConn ~ 900  10100
-NoConn ~ 900  10000
-NoConn ~ 900  9900
-NoConn ~ 900  9800
-NoConn ~ 900  9700
-NoConn ~ 900  9600
-NoConn ~ 10700 8000
-NoConn ~ 10700 7900
-NoConn ~ 10700 7800
-NoConn ~ 10700 7700
-NoConn ~ 10700 7600
-NoConn ~ 10700 7500
-NoConn ~ 10700 7400
-NoConn ~ 10700 7300
-NoConn ~ 10700 7000
-NoConn ~ 10700 6900
-NoConn ~ 10700 6800
-NoConn ~ 10700 6700
-NoConn ~ 10700 6600
-NoConn ~ 10700 6500
-NoConn ~ 10700 6400
-NoConn ~ 10700 6300
-NoConn ~ 10700 6000
-NoConn ~ 10700 5900
-NoConn ~ 10700 5800
-NoConn ~ 10700 5700
-NoConn ~ 10700 5600
-NoConn ~ 10700 5500
-NoConn ~ 10700 5400
-NoConn ~ 10700 5300
-NoConn ~ 10700 5000
-NoConn ~ 10700 4900
-NoConn ~ 10700 4800
-NoConn ~ 10700 4700
-NoConn ~ 10700 4600
-NoConn ~ 10700 4500
-NoConn ~ 10700 4400
-NoConn ~ 10700 4300
-NoConn ~ 10700 4000
-NoConn ~ 10700 3900
-NoConn ~ 10700 3800
-NoConn ~ 10700 3700
-NoConn ~ 10700 3600
-NoConn ~ 10700 3500
-NoConn ~ 10700 3400
-NoConn ~ 10700 3300
-NoConn ~ 10700 3000
-NoConn ~ 10700 2900
-NoConn ~ 10700 2800
-NoConn ~ 10700 2700
-NoConn ~ 10700 2600
-NoConn ~ 10700 2500
-NoConn ~ 10700 2400
-NoConn ~ 10700 2300
-NoConn ~ 900  9300
-NoConn ~ 900  9200
-NoConn ~ 900  9100
-NoConn ~ 900  9000
-NoConn ~ 900  8900
-NoConn ~ 900  8800
-$Comp
-L CONN_8X2 P20
-U 1 1 4FD190B1
-P 2400 8950
-F 0 "P20" H 2400 9400 60  0000 C CNN
-F 1 "CONN_8X2" V 2400 8950 50  0000 C CNN
-	1    2400 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P21
-U 1 1 4FD190B0
-P 12200 2650
-F 0 "P21" H 12200 3100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 2650 50  0000 C CNN
-	1    12200 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P22
-U 1 1 4FD190AF
-P 12200 3650
-F 0 "P22" H 12200 4100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 3650 50  0000 C CNN
-	1    12200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P23
-U 1 1 4FD190AE
-P 12200 4650
-F 0 "P23" H 12200 5100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 4650 50  0000 C CNN
-	1    12200 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P25
-U 1 1 4FD190AC
-P 12200 6650
-F 0 "P25" H 12200 7100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 6650 50  0000 C CNN
-	1    12200 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P26
-U 1 1 4FD190AB
-P 12200 7650
-F 0 "P26" H 12200 8100 60  0000 C CNN
-F 1 "CONN_8X2" V 12200 7650 50  0000 C CNN
-	1    12200 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P27
-U 1 1 4FD190AA
-P 2400 9950
-F 0 "P27" H 2400 10400 60  0000 C CNN
-F 1 "CONN_8X2" V 2400 9950 50  0000 C CNN
-	1    2400 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P17
-U 1 1 4FD19094
-P 1300 9950
-F 0 "P17" H 1300 10400 60  0000 C CNN
-F 1 "CONN_8X2" V 1300 9950 50  0000 C CNN
-	1    1300 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P16
-U 1 1 4FD1908E
-P 11100 7650
-F 0 "P16" H 11100 8100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 7650 50  0000 C CNN
-	1    11100 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P15
-U 1 1 4FD1908B
-P 11100 6650
-F 0 "P15" H 11100 7100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 6650 50  0000 C CNN
-	1    11100 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P13
-U 1 1 4FD19082
-P 11100 4650
-F 0 "P13" H 11100 5100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 4650 50  0000 C CNN
-	1    11100 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P12
-U 1 1 4FD1906F
-P 11100 3650
-F 0 "P12" H 11100 4100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 3650 50  0000 C CNN
-	1    11100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_8X2 P11
-U 1 1 4FD1906C
-P 11100 2650
-F 0 "P11" H 11100 3100 60  0000 C CNN
-F 1 "CONN_8X2" V 11100 2650 50  0000 C CNN
-	1    11100 2650
-	1    0    0    -1  
 $EndComp
 $Comp
 L FUSE F1
@@ -2324,10 +2209,10 @@ $EndComp
 Text Label 2500 4200 0    60   ~ 0
 DSR
 NoConn ~ 800  6700
-NoConn ~ 10300 7000
-NoConn ~ 9500 7000
-NoConn ~ 10300 6600
-NoConn ~ 9500 6600
+NoConn ~ 8500 6500
+NoConn ~ 7700 6500
+NoConn ~ 7300 6500
+NoConn ~ 6500 6500
 $Comp
 L R R13
 U 1 1 4F3B2A75
@@ -2443,19 +2328,19 @@ $EndComp
 $Comp
 L 74LS06 U1
 U 3 1 4F3B2138
-P 9900 7000
-F 0 "U1" H 9850 6850 60  0000 C CNN
-F 1 "74LS06" H 9900 7150 60  0000 C CNN
-	3    9900 7000
+P 8100 6500
+F 0 "U1" H 8050 6350 60  0000 C CNN
+F 1 "74LS06" H 8100 6650 60  0000 C CNN
+	3    8100 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS06 U1
 U 1 1 4F3B2135
-P 9900 6600
-F 0 "U1" H 9850 6450 60  0000 C CNN
-F 1 "74LS06" H 9900 6750 60  0000 C CNN
-	1    9900 6600
+P 6900 6500
+F 0 "U1" H 6850 6350 60  0000 C CNN
+F 1 "74LS06" H 6900 6650 60  0000 C CNN
+	1    6900 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2488,10 +2373,10 @@ $EndComp
 $Comp
 L CONN_2 P1
 U 1 1 4F3B1FBB
-P 4150 6900
-F 0 "P1" V 4100 6900 40  0000 C CNN
-F 1 "5V" V 4200 6900 40  0000 C CNN
-	1    4150 6900
+P 4950 7700
+F 0 "P1" V 4900 7700 40  0000 C CNN
+F 1 "5V" V 5000 7700 40  0000 C CNN
+	1    4950 7700
 	-1   0    0    -1  
 $EndComp
 Text Label 800  3800 0    60   ~ 0
@@ -2590,19 +2475,19 @@ PA0
 $Comp
 L VDD #PWR09
 U 1 1 4F34BB10
-P 7100 6350
-F 0 "#PWR09" H 7100 6450 30  0001 C CNN
-F 1 "VDD" H 7100 6460 30  0000 C CNN
-	1    7100 6350
+P 7900 7150
+F 0 "#PWR09" H 7900 7250 30  0001 C CNN
+F 1 "VDD" H 7900 7260 30  0000 C CNN
+	1    7900 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L CP1 C11
 U 1 1 4F370AD5
-P 5900 6700
-F 0 "C11" H 5950 6800 50  0000 L CNN
-F 1 "47uF" H 5950 6600 50  0000 L CNN
-	1    5900 6700
+P 6700 7500
+F 0 "C11" H 6750 7600 50  0000 L CNN
+F 1 "47uF" H 6750 7400 50  0000 L CNN
+	1    6700 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2714,46 +2599,46 @@ $EndComp
 $Comp
 L C C5
 U 1 1 4F34BCCE
-P 7900 6700
-F 0 "C5" H 7950 6800 50  0000 L CNN
-F 1 "0.1uF" H 7950 6600 50  0000 L CNN
-	1    7900 6700
+P 8700 7500
+F 0 "C5" H 8750 7600 50  0000 L CNN
+F 1 "0.1uF" H 8750 7400 50  0000 L CNN
+	1    8700 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C4
 U 1 1 4F34BCB7
-P 7500 6700
-F 0 "C4" H 7550 6800 50  0000 L CNN
-F 1 "0.1uF" H 7550 6600 50  0000 L CNN
-	1    7500 6700
+P 8300 7500
+F 0 "C4" H 8350 7600 50  0000 L CNN
+F 1 "0.1uF" H 8350 7400 50  0000 L CNN
+	1    8300 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C13
+L CP1 C12
 U 1 1 4F34BAE4
 P 4200 5100
-F 0 "C13" H 4250 5200 50  0000 L CNN
+F 0 "C12" H 4250 5200 50  0000 L CNN
 F 1 "10uF" H 4250 5000 50  0000 L CNN
 	1    4200 5100
 	0    -1   1    0   
 $EndComp
 $Comp
-L CP1 C12
+L CP1 C13
 U 1 1 4F34BADE
-P 8300 6700
-F 0 "C12" H 8350 6800 50  0000 L CNN
-F 1 "10uF" H 8350 6600 50  0000 L CNN
-	1    8300 6700
+P 9100 7500
+F 0 "C13" H 9150 7600 50  0000 L CNN
+F 1 "100uF" H 9150 7400 50  0000 L CNN
+	1    9100 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 7805 U3
 U 1 1 4F34BAB5
-P 6500 6450
-F 0 "U3" H 6650 6254 60  0000 C CNN
-F 1 "LM3940" H 6500 6650 60  0000 C CNN
-	1    6500 6450
+P 7300 7250
+F 0 "U3" H 7450 7054 60  0000 C CNN
+F 1 "LM3940" H 7300 7450 60  0000 C CNN
+	1    7300 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3056,37 +2941,37 @@ $EndComp
 $Comp
 L CONN_1 HOLE4
 U 1 1 4E33430C
-P 8950 7000
-F 0 "HOLE4" H 9030 7000 40  0000 L CNN
-F 1 "CONN_1" H 8950 7055 30  0001 C CNN
-	1    8950 7000
+P 10250 7800
+F 0 "HOLE4" H 10330 7800 40  0000 L CNN
+F 1 "CONN_1" H 10250 7855 30  0001 C CNN
+	1    10250 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 HOLE3
 U 1 1 4E334308
-P 8950 6900
-F 0 "HOLE3" H 9030 6900 40  0000 L CNN
-F 1 "CONN_1" H 8950 6955 30  0001 C CNN
-	1    8950 6900
+P 10250 7700
+F 0 "HOLE3" H 10330 7700 40  0000 L CNN
+F 1 "CONN_1" H 10250 7755 30  0001 C CNN
+	1    10250 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 HOLE2
 U 1 1 4E334305
-P 8950 6800
-F 0 "HOLE2" H 9030 6800 40  0000 L CNN
-F 1 "CONN_1" H 8950 6855 30  0001 C CNN
-	1    8950 6800
+P 10250 7600
+F 0 "HOLE2" H 10330 7600 40  0000 L CNN
+F 1 "CONN_1" H 10250 7655 30  0001 C CNN
+	1    10250 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 HOLE1
 U 1 1 4E3342FD
-P 8950 6700
-F 0 "HOLE1" H 9030 6700 40  0000 L CNN
-F 1 "CONN_1" H 8950 6755 30  0001 C CNN
-	1    8950 6700
+P 10250 7500
+F 0 "HOLE1" H 10330 7500 40  0000 L CNN
+F 1 "CONN_1" H 10250 7555 30  0001 C CNN
+	1    10250 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3101,55 +2986,55 @@ $EndComp
 $Comp
 L VCC #PWR023
 U 1 1 4E332486
-P 5500 6300
-F 0 "#PWR023" H 5500 6400 30  0001 C CNN
-F 1 "VCC" H 5500 6400 30  0000 C CNN
-	1    5500 6300
+P 6300 7100
+F 0 "#PWR023" H 6300 7200 30  0001 C CNN
+F 1 "VCC" H 6300 7200 30  0000 C CNN
+	1    6300 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C3
 U 1 1 4E33228A
-P 7100 6700
-F 0 "C3" H 7150 6800 50  0000 L CNN
-F 1 "0.1uF" H 7150 6600 50  0000 L CNN
-	1    7100 6700
+P 7900 7500
+F 0 "C3" H 7950 7600 50  0000 L CNN
+F 1 "0.1uF" H 7950 7400 50  0000 L CNN
+	1    7900 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C1
 U 1 1 4E33223E
-P 5100 6700
-F 0 "C1" H 5150 6800 50  0000 L CNN
-F 1 "0.1uF" H 5150 6600 50  0000 L CNN
-	1    5100 6700
+P 5900 7500
+F 0 "C1" H 5950 7600 50  0000 L CNN
+F 1 "0.1uF" H 5950 7400 50  0000 L CNN
+	1    5900 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG024
 U 1 1 4E3320F1
-P 4800 6800
-F 0 "#FLG024" H 4800 7070 30  0001 C CNN
-F 1 "PWR_FLAG" H 4800 7030 30  0000 C CNN
-	1    4800 6800
+P 5600 7600
+F 0 "#FLG024" H 5600 7870 30  0001 C CNN
+F 1 "PWR_FLAG" H 5600 7830 30  0000 C CNN
+	1    5600 7600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG025
 U 1 1 4E3320D6
-P 5100 6300
-F 0 "#FLG025" H 5100 6570 30  0001 C CNN
-F 1 "PWR_FLAG" H 5100 6530 30  0000 C CNN
-	1    5100 6300
+P 5900 7100
+F 0 "#FLG025" H 5900 7370 30  0001 C CNN
+F 1 "PWR_FLAG" H 5900 7330 30  0000 C CNN
+	1    5900 7100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR026
 U 1 1 4E3320C4
-P 4800 7100
-F 0 "#PWR026" H 4800 7100 30  0001 C CNN
-F 1 "GND" H 4800 7030 30  0001 C CNN
-	1    4800 7100
+P 5600 7900
+F 0 "#PWR026" H 5600 7900 30  0001 C CNN
+F 1 "GND" H 5600 7830 30  0001 C CNN
+	1    5600 7900
 	-1   0    0    -1  
 $EndComp
 $Comp
