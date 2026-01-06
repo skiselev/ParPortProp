@@ -5,6 +5,8 @@ VGA, PS/2 keyboard, SD card interface, and speaker extension board for Zeta SBC
 
 The ParPortProp (Parallel Port Propeller) board allows extending Zeta and N8VEM SBCs with VGA, PS/2 keyboard, SD card interfaces and a speaker. It is based on Parallax Propeller microcontroller. The ParPortProp design is similar to PropIO and PockeTerm, but it interfaces to a 8255 PPI based parallel port.
 
+![ParPortProp V1.0 Assembled Board](images/ParPortProp-1.0.jpg)
+
 ## Specifications
 
 ParPortProp provides following capabilities:
@@ -21,12 +23,10 @@ ParPortProp provides following capabilities:
 ## Hardware Documentation
 
 ### Schematic and PCB Layout
-* ParPortProp - Schematic - Color - 1.1.pdf (current version)
-* ParPortProp - Schematic - Color - 1.0.pdf
-* ParPortProp - Schematic - Color - 0.9.pdf (prototype)
-* ParPortProp - Board - Color - 1.1.pdf (current version)
-* ParPortProp - Board - Color - 1.0.pdf
-* ParPortProp - Board - Color - 0.9.pdf (prototype)
+* [Schematic - Version 1.0](KiCad/ParPortProp-Schematic-1.0.pdf) (current version)
+* [Schematic - Version 0.9](KiCad/ParPortProp-Schematic-0.9.pdf) (prototype)
+* [PCB Layout - Version 1.0](KiCad/ParPortProp-Board-1.0.pdf) (current version)
+* [PCB Layout - Version 0.9](KiCad/ParPortProp-Board-0.9.pdf) (prototype)
 
 ### Jumpers and Connectors
 
