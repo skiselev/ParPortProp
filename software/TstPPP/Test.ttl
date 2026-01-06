@@ -1,0 +1,23 @@
+filename = 'TstPPP.com'
+timeout = 5
+show 0
+WorkDir='C:\Users\WWarthen\N8VEM\Build\TstPPP'
+connect '/F=N8.INI'
+setdir WorkDir
+changedir 'WorkDir
+msg = 'Upload file '
+strconcat msg filename
+strconcat msg '?'
+yesnobox msg 'TeraTerm Uploader'
+if (result = 0) goto exit
+sendln 'A:'
+wait '>'
+if result = 0 goto exit
+sendln 'ERA TSTPPP.COM'
+wait '>'
+if result = 0 goto exit
+sendln 'B:XM R TSTPPP.COM'
+wait 'pause, Ctrl-X'
+if result = 0 goto exit
+MakePath FilePath WorkDir filename
+xmodemsend FilePath 3

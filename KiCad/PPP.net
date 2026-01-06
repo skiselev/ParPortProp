@@ -1,0 +1,1970 @@
+# EESchema Netlist Version 1.1 created  6/21/2012 8:44:25 PM
+(
+ ( /4FE3E18B $noname  JP4 RTS/CTS {Lib=JUMPER}
+  (    1 N-000677 )
+  (    2 N-000668 )
+ )
+ ( /4FE3E17B $noname  JP3 DTR/DSR {Lib=JUMPER}
+  (    1 N-000581 )
+  (    2 N-000660 )
+ )
+ ( /4FE2D061 $noname  P61 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FE2D069 $noname  P63 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FE2D06F $noname  P64 CONN_4X2 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+ )
+ ( /4FE2D066 $noname  P62 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FE11F99 $noname  R20 130 {Lib=R}
+  (    1 GND )
+  (    2 /BLUE )
+ )
+ ( /4FE11F96 $noname  R19 130 {Lib=R}
+  (    1 GND )
+  (    2 /GREEN )
+ )
+ ( /4FE11F94 $noname  R18 130 {Lib=R}
+  (    1 GND )
+  (    2 /RED )
+ )
+ ( /4FD19067 $noname  P10 CONN_8X2 {Lib=CONN_8X2}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FDAAA08 $noname  C2 0.1uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4FDAAA06 $noname  C9 0.1uF {Lib=CP1}
+  (    1 GND )
+  (    2 N-000586 )
+ )
+ ( /4FDAAA04 $noname  C8 0.1uF {Lib=CP1}
+  (    1 N-000583 )
+  (    2 VCC )
+ )
+ ( /4FDAAA01 $noname  C7 0.1uF {Lib=CP1}
+  (    1 N-000585 )
+  (    2 N-000718 )
+ )
+ ( /4FDAA9FE $noname  C6 0.1uF {Lib=CP1}
+  (    1 N-000578 )
+  (    2 N-000584 )
+ )
+ ( /4FD1A04D $noname  P60 CONN_2X2 {Lib=CONN_2X2}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 ? )
+  (    4 ? )
+ )
+ ( /4FD1A02F $noname  P59 CONN_2X2 {Lib=CONN_2X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 GND )
+  (    4 GND )
+ )
+ ( /4FD199D4 $noname  P39 CONN_4X2 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 VCC )
+ )
+ ( /4FD199D3 $noname  P49 CONN_4X2 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4FD199C9 $noname  P29 CONN_4X2 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4FD199B8 $noname  P19 CONN_4X2 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4FD199A3 $noname  P50 CONN_4X2 {Lib=CONN_4X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4FD19971 $noname  P58 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD19970 $noname  P54 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1996F $noname  P51 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1996E $noname  P52 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1996D $noname  P53 CONN_8X2 {Lib=CONN_8X2}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1996C $noname  P55 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1996B $noname  P56 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1996A $noname  P57 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C8 $noname  P30 CONN_8X2 {Lib=CONN_8X2}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C7 $noname  P31 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C6 $noname  P32 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C5 $noname  P33 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C4 $noname  P35 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C3 $noname  P36 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C2 $noname  P37 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C1 $noname  P47 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196C0 $noname  P46 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196BF $noname  P45 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196BE $noname  P43 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196BD $noname  P42 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196BC $noname  P41 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196BB $noname  P40 CONN_8X2 {Lib=CONN_8X2}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196BA $noname  P34 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196B9 $noname  P44 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD196B8 $noname  P48 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /4FD196B7 $noname  P38 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /4FD19195 $noname  P18 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD19192 $noname  P28 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190AD $noname  P24 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD19087 $noname  P14 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190B1 $noname  P20 CONN_8X2 {Lib=CONN_8X2}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190B0 $noname  P21 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190AF $noname  P22 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190AE $noname  P23 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190AC $noname  P25 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190AB $noname  P26 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD190AA $noname  P27 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /4FD19094 $noname  P17 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+ )
+ ( /4FD1908E $noname  P16 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1908B $noname  P15 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD19082 $noname  P13 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1906F $noname  P12 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FD1906C $noname  P11 CONN_8X2 {Lib=CONN_8X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FBD6BB8 $noname  F1 1.1A {Lib=FUSE}
+  (    1 VCC )
+  (    2 /KBD_VCC )
+ )
+ ( /4F9F8D8B $noname  R17 10k {Lib=R}
+  (    1 VDD )
+  (    2 /DAT2 )
+ )
+ ( /4F3C8DA7 $noname  P3 PROP_PLUG {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000595 )
+  (    3 /RX )
+  (    4 /TX )
+ )
+ ( /4F3B2A75 $noname  R13 1k {Lib=R}
+  (    1 N-000590 )
+  (    2 /RX )
+ )
+ ( /4F3B2825 $noname  P4 PORT_B {Lib=CONN_5X2}
+  (    1 /PB7 )
+  (    2 /PB0 )
+  (    3 /PB6 )
+  (    4 /PB1 )
+  (    5 /PB5 )
+  (    6 /PB2 )
+  (    7 /PB4 )
+  (    8 /PB3 )
+  (    9 /PAR_VCC )
+  (   10 GND )
+ )
+ ( /4F3B26E7 $noname  R14 10k {Lib=R}
+  (    1 VDD )
+  (    2 /nIRQ/DAT1 )
+ )
+ ( /4F3B2662 $noname  R15 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000574 )
+ )
+ ( /4F3B25F5 $noname  R16 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000714 )
+ )
+ ( /4F3B21FA $noname  P2 INT/~INT {Lib=CONN_2}
+  (    1 /PC3 )
+  (    2 N-000574 )
+ )
+ ( /4F3B213A $noname  U1 74LS06 {Lib=74LS06}
+  (    1 ? )
+  (    2 ? )
+  (    3 N-000714 )
+  (    4 N-000575 )
+  (    5 ? )
+  (    6 ? )
+  (    7 GND )
+  (    8 N-000525 )
+  (    9 /PC2 )
+  (   10 N-000574 )
+  (   11 /PC3 )
+  (   12 N-000714 )
+  (   13 /~nCS~/DAT3 )
+  (   14 VCC )
+ )
+ ( /4F3B1FBB $noname  P1 5V {Lib=CONN_2}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4F3B1D54 $noname  JP1 VCC_P25 {Lib=JUMPER}
+  (    1 /PAR_VCC )
+  (    2 VCC )
+ )
+ ( /4F3B142E $noname  P7 SERIAL {Lib=DB9}
+  (    1 ? )
+  (    2 N-000580 )
+  (    3 N-000587 )
+  (    4 N-000581 )
+  (    5 GND )
+  (    6 N-000660 )
+  (    7 N-000677 )
+  (    8 N-000668 )
+  (    9 ? )
+ )
+ ( /4F3B1416 $noname  U2 MAX232 {Lib=MAX232}
+  (    1 N-000578 )
+  (    2 N-000583 )
+  (    3 N-000584 )
+  (    4 N-000585 )
+  (    5 N-000718 )
+  (    6 N-000586 )
+  (    7 N-000587 )
+  (    8 N-000660 )
+  (    9 /DSR )
+  (   10 /TX )
+  (   11 ? )
+  (   12 N-000590 )
+  (   13 N-000580 )
+  (   14 ? )
+  (   15 GND )
+  (   16 VCC )
+ )
+ ( /4F370AD5 $noname  C11 47uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4F370103 $noname  C10 0.1uF {Lib=C}
+  (    1 N-000515 )
+  (    2 GND )
+ )
+ ( /4F3700E3 $noname  R8 240 {Lib=R}
+  (    1 N-000515 )
+  (    2 /SPK )
+ )
+ ( /4F36FFC0 $noname  SP1 SPEAKER {Lib=SPEAKER}
+  (    1 N-000520 )
+  (    2 GND )
+ )
+ ( /4F36F85E $noname  R12 470 {Lib=R}
+  (    1 VCC )
+  (    2 N-000521 )
+ )
+ ( /4F36F84E $noname  D1 SD {Lib=LED}
+  (    1 N-000521 )
+  (    2 N-000575 )
+ )
+ ( /4F35F798 $noname  P9 SD_CARD {Lib=CONN_9}
+  (    1 /~nCS~/DAT3 )
+  (    2 /DI/CMD )
+  (    3 GND )
+  (    4 VDD )
+  (    5 /CLK )
+  (    6 GND )
+  (    7 /DO/DAT0 )
+  (    8 /nIRQ/DAT1 )
+  (    9 /DAT2 )
+ )
+ ( /4F34BCCE $noname  C5 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4F34BCB7 $noname  C4 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4F34BAE4 $noname  C13 10uF {Lib=CP1}
+  (    1 N-000515 )
+  (    2 N-000520 )
+ )
+ ( /4F34BADE $noname  C12 10uF {Lib=CP1}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4F34BAB5 $noname  U3 LM3940 {Lib=7805}
+  (  GND GND )
+  (   VI VCC )
+  (   VO VDD )
+ )
+ ( /4F34B9FF $noname  R2 100 {Lib=R}
+  (    1 /KBD_CLK )
+  (    2 N-000505 )
+ )
+ ( /4F34B9FA $noname  R1 100 {Lib=R}
+  (    1 /KBD_DAT )
+  (    2 N-000503 )
+ )
+ ( /4F34B94B $noname  P6 KEYBOARD {Lib=CONN_6}
+  (    1 N-000503 )
+  (    2 ? )
+  (    3 GND )
+  (    4 /KBD_VCC )
+  (    5 N-000505 )
+  (    6 ? )
+ )
+ ( /4F34A96F $noname  RR1 10k {Lib=RR9}
+  (    1 VDD )
+  (    2 N-000525 )
+  (    3 N-000510 )
+  (    4 N-000561 )
+  (    5 /~nCS~/DAT3 )
+  (    6 /DI/CMD )
+  (    7 /CLK )
+  (    8 /DO/DAT0 )
+  (    9 /KBD_DAT )
+  (   10 /KBD_CLK )
+ )
+ ( /4F34A444 $noname  X1 5MHz {Lib=CRYSTAL}
+  (    1 N-000593 )
+  (    2 N-000498 )
+ )
+ ( /4F34A0C7 $noname  R6 270 {Lib=R}
+  (    1 N-000553 )
+  (    2 /HSYNC )
+ )
+ ( /4F34A0C6 $noname  R5 270 {Lib=R}
+  (    1 N-000555 )
+  (    2 /BLUE )
+ )
+ ( /4F34A0C5 $noname  R11 510 {Lib=R}
+  (    1 N-000557 )
+  (    2 /BLUE )
+ )
+ ( /4F34A0C4 $noname  R4 270 {Lib=R}
+  (    1 N-000558 )
+  (    2 /GREEN )
+ )
+ ( /4F34A0C3 $noname  R10 510 {Lib=R}
+  (    1 N-000511 )
+  (    2 /GREEN )
+ )
+ ( /4F34A0C1 $noname  R3 270 {Lib=R}
+  (    1 N-000514 )
+  (    2 /RED )
+ )
+ ( /4F34A0BF $noname  R9 510 {Lib=R}
+  (    1 N-000537 )
+  (    2 /RED )
+ )
+ ( /4F34A0A8 $noname  P8 VGA {Lib=DE15}
+  (    1 /RED )
+  (    2 /GREEN )
+  (    3 /BLUE )
+  (    4 ? )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 /KBD_VCC )
+  (   10 GND )
+  (   11 ? )
+  (   12 ? )
+  (   13 /HSYNC )
+  (   14 /VSYNC )
+  (   15 ? )
+ )
+ ( /4F34935E $noname  U5 24C512 {Lib=24C512}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 N-000510 )
+  (    6 N-000561 )
+  (    7 GND )
+  (    8 VDD )
+ )
+ ( /4F348D6E $noname  RR3 1k {Lib=R_PACK7}
+  (    1 /PA7 )
+  (    2 /PC0 )
+  (    3 /PC4 )
+  (    4 /PC5 )
+  (    5 /PC6 )
+  (    6 /PC7 )
+  (    7 N-000542 )
+  (    8 /DSR )
+  (    9 /~OBF )
+  (   10 /~ACK )
+  (   11 /IBF )
+  (   12 /~STB )
+  (   13 /~CMD~/DATA )
+  (   14 /D7 )
+ )
+ ( /4F348D6B $noname  RR2 1k {Lib=R_PACK7}
+  (    1 /PA0 )
+  (    2 /PA1 )
+  (    3 /PA2 )
+  (    4 /PA3 )
+  (    5 /PA4 )
+  (    6 /PA5 )
+  (    7 /PA6 )
+  (    8 /D6 )
+  (    9 /D5 )
+  (   10 /D4 )
+  (   11 /D3 )
+  (   12 /D2 )
+  (   13 /D1 )
+  (   14 /D0 )
+ )
+ ( /4F3489FB $noname  R7 270 {Lib=R}
+  (    1 N-000570 )
+  (    2 /VSYNC )
+ )
+ ( /4F34897D $noname  U4 P8X32A {Lib=P8X32A}
+  (    1 /D0 )
+  (    2 /D1 )
+  (    3 /D2 )
+  (    4 /D3 )
+  (    5 /D4 )
+  (    6 /D5 )
+  (    7 /D6 )
+  (    8 /D7 )
+  (    9 GND )
+  (   10 GND )
+  (   11 N-000595 )
+  (   12 VDD )
+  (   13 /~CMD~/DATA )
+  (   14 /~STB )
+  (   15 /IBF )
+  (   16 /~ACK )
+  (   17 /~OBF )
+  (   18 /SPK )
+  (   19 /KBD_DAT )
+  (   20 /KBD_CLK )
+  (   21 N-000570 )
+  (   22 N-000553 )
+  (   23 N-000555 )
+  (   24 N-000557 )
+  (   25 N-000558 )
+  (   26 N-000511 )
+  (   27 N-000514 )
+  (   28 N-000537 )
+  (   29 GND )
+  (   30 N-000593 )
+  (   31 N-000498 )
+  (   32 VDD )
+  (   33 /DO/DAT0 )
+  (   34 /CLK )
+  (   35 /DI/CMD )
+  (   36 /~nCS~/DAT3 )
+  (   37 N-000561 )
+  (   38 N-000510 )
+  (   39 /TX )
+  (   40 /RX )
+ )
+ ( /4E33430C $noname  HOLE4 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E334308 $noname  HOLE3 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E334305 $noname  HOLE2 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E3342FD $noname  HOLE1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /4E333D25 $noname  JP2 NORM/LOAD {Lib=JUMPER3}
+  (    1 N-000525 )
+  (    2 N-000595 )
+  (    3 N-000542 )
+ )
+ ( /4E33228A $noname  C3 0.1uF {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4E33223E $noname  C1 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4E2FC278 $noname  P5 PARALLEL {Lib=CONN_13X2}
+  (    1 /PC0 )
+  (    2 /PA0 )
+  (    3 ? )
+  (    4 /PA1 )
+  (    5 /PC2 )
+  (    6 /PA2 )
+  (    7 /PC3 )
+  (    8 /PA3 )
+  (    9 /PC4 )
+  (   10 /PA4 )
+  (   11 /PC5 )
+  (   12 /PA5 )
+  (   13 /PC6 )
+  (   14 /PA6 )
+  (   15 /PC7 )
+  (   16 /PA7 )
+  (   17 /PB7 )
+  (   18 /PB0 )
+  (   19 /PB6 )
+  (   20 /PB1 )
+  (   21 /PB5 )
+  (   22 /PB2 )
+  (   23 /PB4 )
+  (   24 /PB3 )
+  (   25 /PAR_VCC )
+  (   26 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U1
+ DIP-14__300
+$endlist
+$component P7
+ DB9*
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component P8
+ DE15*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 498 "" ""
+ U4 31
+ X1 2
+Net 503 "" ""
+ R1 2
+ P6 1
+Net 505 "" ""
+ P6 5
+ R2 2
+Net 507 "VDD" "VDD"
+ C5 1
+ U3 VO
+ U5 8
+ RR1 1
+ C4 1
+ C12 1
+ R14 1
+ P9 4
+ C3 1
+ U4 32
+ R17 1
+ U4 12
+Net 508 "/HSYNC" "HSYNC"
+ R6 2
+ P8 13
+Net 509 "GND" "GND"
+ P4 10
+ P8 8
+ P17 15
+ P17 16
+ P27 13
+ P27 14
+ P27 15
+ P8 7
+ P27 16
+ U4 29
+ P8 10
+ P8 6
+ P8 5
+ P6 3
+ C2 2
+ C9 1
+ SP1 2
+ P9 3
+ HOLE4 1
+ P59 3
+ C3 2
+ U2 15
+ U4 9
+ P5 26
+ HOLE1 1
+ U4 10
+ HOLE3 1
+ P17 13
+ R18 1
+ C11 2
+ U5 7
+ C10 2
+ U5 3
+ U5 2
+ U5 1
+ P17 14
+ P64 8
+ U5 4
+ R20 1
+ P38 15
+ P7 5
+ P38 14
+ P64 6
+ P38 13
+ P48 13
+ P48 16
+ P48 15
+ P48 14
+ HOLE2 1
+ P9 6
+ P1 2
+ C1 2
+ U3 GND
+ C12 2
+ P59 4
+ P3 1
+ R19 1
+ C4 2
+ P38 16
+ P64 5
+ C5 2
+ P64 7
+ U1 7
+Net 510 "" ""
+ RR1 3
+ U4 38
+ U5 5
+Net 511 "" ""
+ U4 26
+ R10 1
+Net 512 "/BLUE" "BLUE"
+ P8 3
+ R11 2
+ R5 2
+ R20 2
+Net 513 "/GREEN" "GREEN"
+ R19 2
+ P8 2
+ R4 2
+ R10 2
+Net 514 "" ""
+ U4 27
+ R3 1
+Net 515 "" ""
+ C13 1
+ C10 1
+ R8 1
+Net 516 "/SPK" "SPK"
+ R8 2
+ U4 18
+Net 518 "VCC" "VCC"
+ P10 1
+ U2 16
+ P10 4
+ P10 2
+ P10 3
+ P53 4
+ C2 1
+ C8 2
+ P53 1
+ P53 2
+ P53 3
+ P20 4
+ P20 3
+ P20 2
+ C11 1
+ P60 1
+ P60 2
+ P39 4
+ P20 1
+ R12 1
+ P40 1
+ P40 2
+ P40 3
+ P1 1
+ P30 4
+ P30 3
+ P30 2
+ P30 1
+ R15 1
+ JP1 2
+ F1 1
+ U3 VI
+ R16 1
+ U1 14
+ C1 1
+ P39 8
+ P40 4
+Net 519 "/KBD_CLK" "KBD_CLK"
+ RR1 10
+ R2 1
+ U4 20
+Net 520 "" ""
+ SP1 1
+ C13 2
+Net 521 "" ""
+ R12 2
+ D1 1
+Net 522 "/nIRQ/DAT1" "nIRQ/DAT1"
+ R14 2
+ P9 8
+Net 523 "/DO/DAT0" "DO/DAT0"
+ RR1 8
+ P9 7
+ U4 33
+Net 524 "/DI/CMD" "DI/CMD"
+ P9 2
+ U4 35
+ RR1 6
+Net 525 "" ""
+ U1 8
+ RR1 2
+ JP2 1
+Net 526 "/PB4" "PB4"
+ P4 7
+ P5 23
+Net 527 "/PB1" "PB1"
+ P4 4
+ P5 20
+Net 528 "/PB5" "PB5"
+ P4 5
+ P5 21
+Net 529 "/PB2" "PB2"
+ P5 22
+ P4 6
+Net 530 "/PB3" "PB3"
+ P5 24
+ P4 8
+Net 531 "/PAR_VCC" "PAR_VCC"
+ P4 9
+ P5 25
+ JP1 1
+Net 532 "/PB7" "PB7"
+ P4 1
+ P5 17
+Net 533 "/PB0" "PB0"
+ P5 18
+ P4 2
+Net 534 "/PB6" "PB6"
+ P4 3
+ P5 19
+Net 535 "/PC4" "PC4"
+ P5 9
+ RR3 3
+Net 536 "/PC3" "PC3"
+ U1 11
+ P2 1
+ P5 7
+Net 537 "" ""
+ R9 1
+ U4 28
+Net 538 "/PC2" "PC2"
+ P5 5
+ U1 9
+Net 539 "/PA2" "PA2"
+ P5 6
+ RR2 3
+Net 540 "/PA0" "PA0"
+ RR2 1
+ P5 2
+Net 541 "/PA1" "PA1"
+ RR2 2
+ P5 4
+Net 542 "" ""
+ JP2 3
+ RR3 7
+Net 543 "/PA3" "PA3"
+ RR2 4
+ P5 8
+Net 544 "/PA4" "PA4"
+ P5 10
+ RR2 5
+Net 545 "/PA5" "PA5"
+ RR2 6
+ P5 12
+Net 546 "/PA6" "PA6"
+ RR2 7
+ P5 14
+Net 547 "/PA7" "PA7"
+ P5 16
+ RR3 1
+Net 548 "/PC0" "PC0"
+ RR3 2
+ P5 1
+Net 549 "/PC5" "PC5"
+ P5 11
+ RR3 4
+Net 550 "/PC6" "PC6"
+ RR3 5
+ P5 13
+Net 551 "/PC7" "PC7"
+ P5 15
+ RR3 6
+Net 552 "/IBF" "IBF"
+ U4 15
+ RR3 11
+Net 553 "" ""
+ U4 22
+ R6 1
+Net 554 "/~CMD~/DATA" "~CMD~/DATA"
+ RR3 13
+ U4 13
+Net 555 "" ""
+ R5 1
+ U4 23
+Net 556 "/~STB" "~STB"
+ U4 14
+ RR3 12
+Net 557 "" ""
+ R11 1
+ U4 24
+Net 558 "" ""
+ U4 25
+ R4 1
+Net 559 "/~ACK" "~ACK"
+ U4 16
+ RR3 10
+Net 560 "/~OBF" "~OBF"
+ RR3 9
+ U4 17
+Net 561 "" ""
+ RR1 4
+ U4 37
+ U5 6
+Net 562 "/D6" "D6"
+ U4 7
+ RR2 8
+Net 563 "/D0" "D0"
+ RR2 14
+ U4 1
+Net 564 "/D1" "D1"
+ RR2 13
+ U4 2
+Net 565 "/D2" "D2"
+ RR2 12
+ U4 3
+Net 566 "/D3" "D3"
+ RR2 11
+ U4 4
+Net 567 "/D4" "D4"
+ RR2 10
+ U4 5
+Net 568 "/D5" "D5"
+ RR2 9
+ U4 6
+Net 570 "" ""
+ U4 21
+ R7 1
+Net 573 "/~nCS~/DAT3" "~nCS~/DAT3"
+ U4 36
+ RR1 5
+ U1 13
+ P9 1
+Net 574 "" ""
+ R15 2
+ P2 2
+ U1 10
+Net 575 "" ""
+ D1 2
+ U1 4
+Net 578 "" ""
+ C6 1
+ U2 1
+Net 580 "" ""
+ P7 2
+ U2 13
+Net 581 "" ""
+ JP3 1
+ P7 4
+Net 583 "" ""
+ C8 1
+ U2 2
+Net 584 "" ""
+ C6 2
+ U2 3
+Net 585 "" ""
+ C7 1
+ U2 4
+Net 586 "" ""
+ C9 2
+ U2 6
+Net 587 "" ""
+ U2 7
+ P7 3
+Net 588 "/DAT2" "DAT2"
+ P9 9
+ R17 2
+Net 590 "" ""
+ U2 12
+ R13 1
+Net 591 "/RX" "RX"
+ R13 2
+ P3 3
+ U4 40
+Net 593 "" ""
+ X1 1
+ U4 30
+Net 594 "/DSR" "DSR"
+ RR3 8
+ U2 9
+Net 595 "" ""
+ JP2 2
+ P3 2
+ U4 11
+Net 660 "" ""
+ U2 8
+ P7 6
+ JP3 2
+Net 668 "" ""
+ JP4 2
+ P7 8
+Net 677 "" ""
+ JP4 1
+ P7 7
+Net 711 "/CLK" "CLK"
+ P9 5
+ U4 34
+ RR1 7
+Net 712 "/TX" "TX"
+ U4 39
+ U2 10
+ P3 4
+Net 713 "/KBD_DAT" "KBD_DAT"
+ RR1 9
+ U4 19
+ R1 1
+Net 714 "" ""
+ R16 2
+ U1 3
+ U1 12
+Net 715 "/VSYNC" "VSYNC"
+ R7 2
+ P8 14
+Net 716 "/D7" "D7"
+ U4 8
+ RR3 14
+Net 717 "/RED" "RED"
+ R9 2
+ P8 1
+ R3 2
+ R18 2
+Net 718 "" ""
+ C7 2
+ U2 5
+Net 813 "/KBD_VCC" "KBD_VCC"
+ P6 4
+ F1 2
+ P8 9
+}
+#End
